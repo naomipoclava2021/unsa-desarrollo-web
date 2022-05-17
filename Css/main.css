@@ -2,3 +2,15 @@ body{
     background-color: black;
     color: white;
 }
+
+.contenedor{
+    text-align: center;
+}
+
+span{
+    color: rgb(255, 0, 157);
+}
+
+img{
+    width: 100vw;
+}
