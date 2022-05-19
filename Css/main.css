@@ -13,4 +13,20 @@ span{
 
 img{
     width: 100vw;
+    
+}
+
+
+
+.parrafo{
+    color: blue;
+}
+
+#parrafo{
+    color: gray;
+}
+
+
+h3:hover{
+    background-color: blueviolet;
 }
