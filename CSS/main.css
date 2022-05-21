@@ -8,6 +8,11 @@ h1{
 }
 
 footer{
-    color: #732C2C;
+    color: #BFA79F;
 }
 
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
