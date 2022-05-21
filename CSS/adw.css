@@ -1,0 +1,25 @@
+body{
+    background: #224040;
+    color: #F2F2F2;
+
+}
+
+h1{
+    text-align: center;
+}
+
+h1:hover{
+    color: #04D99D;
+}
+
+a{
+    color: #50BFAB;
+}
+
+a:hover{
+    color: #04D99D;
+}
+
+img{
+    width: 100vw;
+}
