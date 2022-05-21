@@ -11,3 +11,7 @@ h1{
     -webkit-background-clip: text;
 }
 
+img{
+    width:100vw;
+}
+
