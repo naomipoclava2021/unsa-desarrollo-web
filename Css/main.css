@@ -3,22 +3,11 @@ body{
     color: white;
 }
 
-.contenedor{
-    text-align: center;
+h1{
+    background: #ccc;
+    background: linear-gradient(#7928ca, #ff0080);
+
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
 }
 
-span{
-    color: rgb(255, 0, 157);
-}
-
-img{
-    width: 100vw;
-    
-}
-
-
-
-
-h3:hover{
-    background-color: blueviolet;
-}
