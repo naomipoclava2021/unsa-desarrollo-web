@@ -1,18 +1,13 @@
 body{
-    background-color: black;
+    background-color: #2E3140;
     color: white;
 }
 h1{
     text-align: center;
-}
-.gradiente{
-    background: #ccc;
-    background: linear-gradient(#7928ca, #ff0080);
-
-    -webkit-text-fill-color:transparent;
-    -webkit-background-clip: text;
+    color: #BFA79F;
 }
 
-img{
-    width: 100vw;
+footer{
+    color: #732C2C;
 }
+
