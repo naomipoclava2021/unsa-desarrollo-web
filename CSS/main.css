@@ -1,18 +1,16 @@
 body{
-    background-color: #2E3140;
-    color: white;
+    background-color: black;
+    color: #D9D9D9;
 }
-h1{
+
+header{
     text-align: center;
-    color: #BFA79F;
+    background-color: #AC99F2;
+    display: flow-root;
+    color: #CED3F2;
 }
 
-footer{
-    color: #BFA79F;
+.centrar{
+    text-align: center;
 }
 
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
