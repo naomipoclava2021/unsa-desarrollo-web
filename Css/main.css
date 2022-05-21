@@ -2,12 +2,23 @@ body{
     background-color: black;
     color: white;
 }
-
 h1{
+    text-align: center;
+}
+.gradiente{
     background: #ccc;
     background: linear-gradient(#7928ca, #ff0080);
 
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
+}
+
+
+
+
+
+
+img{
+    width: 100vw;
 }
 
