@@ -1,6 +1,5 @@
 body{
-    background-color: #06403A;
-    color: #F2F2F2;
+    background-color: #f4fffe;
 }
 
 header{
@@ -15,22 +14,7 @@ header{
 }
 
 
-.galeria{
-    background-color: rgba(236, 226, 167, 0.884);
-    flex-flow: wrap;
-    
-    
-}
 
-h3{
-    text-align: center;
-}
-
-img{
-    width: 100%;
-    height: 100%;
-   
-}
 
 
 
