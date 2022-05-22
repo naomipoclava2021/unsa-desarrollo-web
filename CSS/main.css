@@ -1,17 +1,67 @@
 body{
-    background-color: #f4fffe;
+    background-color: #000000;
+}
+
+h3{
+    color: #aa16cf;
 }
 
 header{
     text-align: center;
     display: flow-root;
-
-    background: #ccc;
-    background: linear-gradient(#30c9b9, #539ac7);
-
-    -webkit-text-fill-color:transparent;
-    -webkit-background-clip: text;
+    color: #aa16cf;
 }
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+input{
+    background-color: #230427;
+    border: none;
+    color: #ffffff;
+    padding: 1%;
+    margin: 2%;
+    font-size: medium;    
+}
+
+input::placeholder{
+    color: rgb(182, 176, 176);
+}
+
+
+
+
+input:hover{
+    background-color:#0f0e0e ;
+    color: #ffffff;
+}
+
+textarea{
+    background-color: #4b0b57;
+    color: #ffffff;
+    border: none;
+}
+
+textarea:hover{
+    background-color: #0f0e0e;
+}
+
+label{
+    color: #ffffff;
+}
+
+address{
+    color: #fff;
+}
+
+
+
+
 
 
 

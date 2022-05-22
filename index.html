@@ -19,178 +19,52 @@
 
     <section>
       <article>
-        <h3>Formularios - Objetivos</h3>
-        <p>
-          <ul>
-            <li>¿Que son?</li>
-            <li>Para que sirven?</li>
-            <li>Como se crea?</li>
-            <li>como funcionan?</li>
-          </ul>
-        </p>
-        <h3>Formularios</h3>
-        <p>
-          <ul>
-            <li>Necesidad de interactuar con los usuarios</li>
-            <li>Componente de una pagina web. form /form</li>
-            <li>Existen controles para que el usuario proporcione infomacion</li>
-            <li>El procesamiento de esta informacion es en servidor (mas adelante). Opciones? </li>
-          </ul>
-        </p>
+        <h3>Formulario de Una Heladeria</h3>
+        <hr><br>
 
-        <h3>Formulario - Definir</h3>
-        <ul>
-          <li>Donde se mandan los datos</li>
-          <li>Como se mandan los datos</li>
-        </ul>
+        <div>
+          <!-- <h3>Formulario</h3> -->
+          <form action="" method="" enctype="multipart/form-data">
+            <input type="text" name="nombre" id="nombre" placeholder="nombre:" required>
+            <input type="text" name="apellido" id="apellido" placeholder="apellido:" required>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+            <input type="number" name="" id="" placeholder="Telefono:">
+            <input type="text" name="" id="" placeholder="Ciudad:">
+            <input type="text" name="" id="" placeholder="Localidad:">
+            <input type="text" name="" id="" placeholder="Direccion:">
+            <input type="text" name="" id="" placeholder="Barrio:"><br><br>
 
-        <!-- <form action="/donde" method="como"></form> -->
+            <label for="">Tipo de Gastronomia</label>
+            <select name="tipo" id="tipo">
+              <option value=""><label for="">Tipo de Gastronomia</label> </option>
+              <option value=""><label for="">Bares</label> </option>
+              <option value=""><label for="">Boliches</label> </option>
+              <option value=""><label for="">Lomiterias</label> </option>
+              <option value=""><label for="">Parrilla</label> </option>
+              <option value=""><label for="">Pizzeria</label> </option>
+              <option value=""><label for="">Rosticeria</label> </option>
+              <option value=""><label for="">Otros</label> </option>
+            </select><br><br>
 
-        <h3>Formularios - Elementos de entrada</h3>
-        <p>
-          <ul>
-            <li>Campo de texto</li>
-            <li>Casilla de verificacion(Checkbox)</li>
-            <li>Boton de radio (radiobutton)</li>
-            <li>Cuadro de seleccion (select)</li>
-            <li>Boton de enviar(submit)</li>
-            <li>Boton de reinicio(Reset)</li>
-            <li>Seleccion de archivos(upload)</li>
-            <li>Campo de contraseña</li>
-            <li>etc</li>
-            <li>etc(HTML)</li>
-          </ul>
-        </p>
+            <label for="delivery">¿Cuenta con delivery?</label><br>
+            <input type="radio" name="delivery" id=""><label for="">Si</label>
+            <input type="radio" name="delivery" id=""><label for="">No<br></label><br>
 
-        <h3>Formularios - Textos</h3>
-        <form action="" method="post">
-          <input type="text" name="" id="">
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-        </form>
+            <label for="Sabores">Sabores</label><br>
+            <input type="checkbox" name="Sabores" id="1"> <label for="">Chocolate<br></label> 
+            <input type="checkbox" name="Sabores" id="2"> <label for="">Anana<br></label> 
+            <input type="checkbox" name="Sabores" id="3"> <label for="">Cereza<br></label> 
+            <input type="checkbox" name="Sabores" id="4"> <label for="">Dulce de leche<br></label> 
+            <input type="checkbox" name="Sabores" id="5"> <label for="">Durazno<br></label><br>
 
-        <h3>Formularios - Textos</h3>
-        <form action="" method="post">
-          <label for="">Tu Nombre</label>
-          <input type="text" name="" id="">
-          <label for="">Mensaje</label>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-        </form>
+            <label for="">Subir una imagen de Helado</label>
+            <input type="file" name="subir" id="subir"><br><br>
 
-        <h3>Formularios - Select</h3>
-        <form action="" method="post"></form>
-        <label for="">Tu equipo favorito: </label><br>
-        <select name="" id="">
-          <option value="">Boca Juniors</option>
-          <option value="">Tigre</option>
-          <option value="">Belgrano</option>
-          <option value="">Flamengo</option>
-          <option value="">Riber</option>
-        </select>
-
-
-        <h3>Formularios - Checkbox</h3>
-        <form action="" method="post">
-          <label for="">Equipos descendiron</label><br>
-          <input type="checkbox" name="" id="">Boca <br>
-          <input type="checkbox" name="" id="">San Lorenzo <br>
-          <input type="checkbox" name="" id="">Racing <br>
-          <input type="checkbox" name="" id="">Independiente<br>
-          <input type="checkbox" name="" id="">Riber<br>
-        </form>
-
-        <h3>Formularios - Radio</h3>
-        <form action="" method="post">
-          <label for="categoria">Categoria: </label><br>
-          <input type="radio" name="categoria" id="">Grande
-          <input type="radio" name="categoria" id="">Chico
-        </form>
-
-
-        <h3>Formularios - File</h3>
-        <form action="" method="post" enctype="multipart/form-data">
-          <label for="">Suba el escudo de su equipo: </label>
-          <input type="file" name="" id="">
-        </form>
-
-        <h3>Formularios - Botones</h3>
-        <form action="" method="">
-          <input type="submit" value="enviar">
-          <input type="reset" value="">
-          
-          
-        </form>
-
-        <h3>Formularios - Ocultos</h3>
-        <form action="" method="post">
-          <input type="hidden" name="" value="3.1416">
-        </form>
-
-        <h3>Formularios - Password</h3>
-        <form action="" method="post">
-          <label for="">contraseña:</label>
-          <input type="password" name="" id="">
-        </form>
-
-        <h3>Formularios - Atributos</h3>
-        <p>id<br>name<br>value<br>checked<br>size<br>maxlength<br>reandonly<br>diseble="diseble"</p>
-
-        <h3>Formularios - Texto</h3>
-        <form action="" method="post">
-          <input type="text" name="nombre" id="nombre" value="">
-          <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-        </form>
-
-        <h3>Formularios Select</h3>
-        <form action="" method="post">
-          <label for="equipo">Tu equipo favorito: </label><br>
-          <select name="equipo" id="equipo">
-            <option value="1">Boca Juniors</option>
-            <option value="2">Tigre</option>
-            <option value="3">Belgrano</option>
-            <option value="4">Flamengo</option>
-            <option value="5">Riber</option>
-          </select>
-        </form>
-        
-
-        <h3>Formularios - Checkbox</h3>
-        <form action="" method="post">
-          <label for="">Equipos que descendieron</label><br>
-          <input type="checkbox" name="e1" id="">Boca<br>
-          <input type="checkbox" name="e2" id="">Riber<br>
-          <input type="checkbox" name="e3" id="">Racing<br>
-          <input type="checkbox" name="e4" id="">Independiente<br>
-          <input type="checkbox" name="e5" id="">San Lorenzo<br>
-        </form>
-
-
-        <h3>Formulario - Radio</h3>
-        <form action="" method="post">
-          <label for="categorias">Categorias</label><br>
-          <input type="radio" name="categoria" id="">Grande
-          <input type="radio" name="categoria" id="">Chico
-        </form>
-        
-
-        <h3>Formularios - File</h3>
-
-        <form action="" method="post" enctype="multipart/form-data">
-          <label for="archivos">Suba el escudo de su equipo: </label><br>
-          <input type="file" name="escudo" id="escudo">
-        </form>
-
-
-      </article>
-
-      <article>
-
-      </article>
-
-      <article>
-
-      </article>
-      <article>
-
+            <textarea name="" id="" cols="30" rows="10" placeholder="Observacion:"></textarea><br><br>
+            <input type="reset" value="Resetear">
+            <input type="submit" value="Enviar">
+          </form>
+        </div>
       </article>
     </section>
 
