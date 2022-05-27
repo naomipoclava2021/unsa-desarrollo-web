@@ -1,10 +1,8 @@
 body{
     background-color: #000000;
+    color: aliceblue;
 }
 
-h3{
-    color: #aa16cf;
-}
 
 header{
     text-align: center;
@@ -12,51 +10,14 @@ header{
     color: #aa16cf;
 }
 
-div{
-    display: flex;
-    justify-content: center;
+img{
+    width: 50vw;
+    display: flow-root;
 }
 
-
-
-
-input{
-    background-color: #230427;
-    border: none;
-    color: #ffffff;
-    padding: 1%;
-    margin: 2%;
-    font-size: medium;    
-}
-
-input::placeholder{
-    color: rgb(182, 176, 176);
-}
-
-
-
-
-input:hover{
-    background-color:#0f0e0e ;
-    color: #ffffff;
-}
-
-textarea{
-    background-color: #4b0b57;
-    color: #ffffff;
-    border: none;
-}
-
-textarea:hover{
-    background-color: #0f0e0e;
-}
-
-label{
-    color: #ffffff;
-}
-
-address{
-    color: #fff;
+video, iframe{
+    
+    width: min-content;
 }
 
 
