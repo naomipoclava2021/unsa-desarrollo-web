@@ -12,7 +12,10 @@
       <nav></nav>
 
       <h1>
-        Registrarse
+        Introduccion al Desarrollo Web<br>
+        Dertamento de Informatica<br>
+        HTML- Dia -3- Parte 2<br>
+        2022
       </h1>
     </header>
 
@@ -29,15 +32,50 @@
             <label for="">Fecha Nacimiento</label><br>
             <input type="date" name="" id="" required><br><br>
             <label for="">Edad:</label><br>
-            <input type="number" name="" id="" placeholder="Ingrese su edad:" max="120" required><br><br>
-
+            <input type="number" name="" id="" placeholder="Ingrese su edad:" min="1" max="120" required><br><br>
             <label for="">Elegir un color</label>
             <input type="color" name="" id=""><br><br>
 
+            <h3>Formularios - HTML 5 - Nuevos inputs</h3>
+            <small>Trabajar con fechas y hora</small><br><br>
+
+            <label for="">Input date: Para introducir una fecha que no haga parte del conjunto de horario</label><br>
+            <input type="date" name="" id=""><br><br>
+
+            <label for="">Input datetime: Para introducir fecha y hora.</label><br>
+            <input type="datetime-local" name="" id=""><br><br>
+
+            <label for="">Input month: Para introducir un mes de un año</label><br>
+            <input type="month" name="" id=""><br><br>
+
+            <label for="">Input week: Ofrece una utilidad para escribir y captar informacion de semanas.</label><br>
+            <input type="week" name="" id=""><br><br>
+
+            <label for="">Input time: Obtiene informacion con horas, minutos y segundos</label><br>
+            <input type="time" name="" id=""><br><br>
+
+            <small>Trabajar con correos electronicos</small>
+            <label for="">Email:</label><br>
+            <input type="email" name="" id="" minlength="8" maxlength="50" autofocus required><br>
 
             <input type="reset" value="Resetear">
             <input type="submit" value="Enviar">
           </form>
+        </article>
+
+        <article>
+          <h3>Formulario - validaciones</h3>
+          <p>Hacer que los campos sean obligatorios usando required<br><br>
+          Restrigir la longitud de los datos:
+          <ul>
+            <li>minlenght,maxlenght: para datos de texto</li>
+            <li>min y max para valor maximo de tipo numero</li>
+          </ul>
+          Restringir el tipo de datos usando type="email"<br>
+          Especifaca un patron de extresiones regulares que los datos ingresados del formulario deben coincidir.
+        
+        </p>
+          <p>readonly<br>disabled<br>placeholder<br>autofocus<br>novalidate<br>otros</p>
         </article>
         
       </section>
