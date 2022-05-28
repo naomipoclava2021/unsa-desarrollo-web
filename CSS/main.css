@@ -1,50 +1,31 @@
 body{
-    background-color: #064f57;
-    color: oldlace;
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+input{
+    border:none;
+    color: rgb(94, 224, 224);
+    background-color: rgb(104, 99, 90);
+    margin-top: 2%;
 }
 
-
-header{
-    text-align: center;
-    display: flow-root;
-    color:rgba(0, 255, 255, 0.671);
-}
-
-img{
-   width: 100%;
-   flex-basis: content;
-}
-
-h3{
-    text-align: center;
+input::placeholder{
     color: cyan;
-
+    background-color: gray;
 }
 
-video{
-    width: 80%;
-    margin: 9%;
-}
 
-iframe{
-    width: 100%;
-}
 
-button{
-    border: none;
-    padding-right: 2%;
-    margin-left: 10px;
-}
-
-button:hover{
+textarea{
+    background-color: grey;
     border: none;
     color: cyan;
-    background-color: black;
+    margin-top: 2%;
 }
 
-
-p{
-    padding-left: 10px;
+textarea::placeholder{
+    color:cyan;
+    background-color: gray;
 }
 
 
