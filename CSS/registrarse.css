@@ -28,40 +28,16 @@ textarea::placeholder{
     background-color: gray;
 }
 
-h3{
-    text-align: right;
-} 
 
-
-p{
-    text-align: justify;
-}
-
-
-.img{
-    width: 100%;
-}
-
-
-
-.a-label{
+.a-lebel{
     color: aliceblue;
     padding-right: 3%;
 }
-
-.a-label:hover{
-    color: aqua;
+.a-lebel:hover{
+    color:cyan
 }
 
-figcaption{
-    text-align: center;
-}
 
-span{
-    font-size: 25px;
-}
 
-.span-color{
-    color: rgb(42, 109, 172);
-    font-size: medium;
-} 
+
+

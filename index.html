@@ -9,80 +9,85 @@
   </head>
   <body>
     <header>
-      <nav></nav>
-
-      <h1>
-        Introduccion al Desarrollo Web<br>
-        Dertamento de Informatica<br>
-        HTML- Dia -3- Parte 2<br>
-        2022
-      </h1>
+      <nav>
+        <h1> Mi Porfolio</h1>
+        <hr>
+        <ul>
+          <li><a href="index.html" rel="noopener noreferrer">Incio</a></li>
+          <li><a href="Html/galeria.html" rel="noopener noreferrer">Galeria</a></li>
+          <li><a href="Html/entretenimiento.html" rel="noopener noreferrer">Entrenimiento</a></li>
+          <li><a href="Html/formulario.html" rel="noopener noreferrer">Formulario</a></li>
+          <li><a href="Html/registrarse.html"  rel="noopener noreferrer">Registarse</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
       <section>
         <article>
-          <form action="" method="">
-            <label for="">Nombre: </label><br>
-            <input type="text" name="" id="" placeholder="Ingrese su nombre: " min="3" max="30" minlength="4" maxlength="45" required><br><br>
-            <label for="">Email:</label><br>
-            <input type="email" name="" id="" placeholder="Ingrese su email: " required><br><br>
-            <label for="">Pasword:</label><br>
-            <input type="password" name="" id="" placeholder="Ingrese una contraseña:" minlength="8" required><br><br>
-            <label for="">Fecha Nacimiento</label><br>
-            <input type="date" name="" id="" required><br><br>
-            <label for="">Edad:</label><br>
-            <input type="number" name="" id="" placeholder="Ingrese su edad:" min="1" max="120" required><br><br>
-            <label for="">Elegir un color</label>
-            <input type="color" name="" id=""><br><br>
+          <div>
+            <h3>Hola soy Naomi!</h3>
+            <p>Bienvendido a mi porfolio<br><br>
+            <span>Sobre mi:</span>
+            <br>
+            Tengo 21 años, soy de Argentina provincia de salta, comence en progracion en Octubre del 2021 cuando lanzaron python en mil programadores, aprendi a usar editores de codigos y tambien a usar github y git lo que me permitio compartir codigo a mis compañeros de una manera muy sencilla. Actualmente me encuentro estuadiado JAVA y Introduccion al desarrollo web, cursos que brinda la universidad. En JAVA estoy aprendiendo sobre bases de datos, anteriormente vivos progracion orientada a objetos y baste logica de programacion. Espero seguir aprendiendo mucho mas con el tiempo y escucho ofertas de trabajo por si te interesa contactarme. 
+          </p>
+            <figure>
+               <img class="img" src="https://avatars.githubusercontent.com/u/95596561?s=400&u=b2805ceb4a75bf4072bdf0920cddbeee502f1b72&v=4" alt="No Disponible">
+              <figcaption >Naomi Milagro Poclava</figcaption>
+            </figure>
+           
+          </div>
 
-            <h3>Formularios - HTML 5 - Nuevos inputs</h3>
-            <small>Trabajar con fechas y hora</small><br><br>
+          <div>
+            <span>Perfil de GitHub: </span> </h4>
+            <p>En este perfil te encontraras con los lenguajes de progracion que conozco el cual la plataforma se encarga de hacer las estadisticas y algunos repositorios interesante que fui desarrollando con el tiempo. Estan todos publicos por si quieres descargar algo. Muchas gracias por tu atencion!
+              <a href="https://github.com/naomipoclava2021" target="_blank" rel="noopener noreferrer">Perfil de GitHub de Naomi</a>
+            </p>
 
-            <label for="">Input date: Para introducir una fecha que no haga parte del conjunto de horario</label><br>
-            <input type="date" name="" id=""><br><br>
+          </div>
 
-            <label for="">Input datetime: Para introducir fecha y hora.</label><br>
-            <input type="datetime-local" name="" id=""><br><br>
+          <div>
+            <span>Codigo de Esta Pagina:</span>
+            <p>Podes ver el codigo de esta pagina en mi GitHub. <span class="span-color">¡Atencion el contenido de las carpetas pueden ir cambiando con el tiempo, porque la uso para practicar lo que voy viendo en trascurso de curso.!</span></p>
 
-            <label for="">Input month: Para introducir un mes de un año</label><br>
-            <input type="month" name="" id=""><br><br>
-
-            <label for="">Input week: Ofrece una utilidad para escribir y captar informacion de semanas.</label><br>
-            <input type="week" name="" id=""><br><br>
-
-            <label for="">Input time: Obtiene informacion con horas, minutos y segundos</label><br>
-            <input type="time" name="" id=""><br><br>
-
-            <small>Trabajar con correos electronicos</small>
-            <label for="">Email:</label><br>
-            <input type="email" name="" id="" minlength="8" maxlength="50" autofocus required><br>
-
-            <input type="reset" value="Resetear">
-            <input type="submit" value="Enviar">
-          </form>
+          </div>
+          
         </article>
 
-        <article>
-          <h3>Formulario - validaciones</h3>
-          <p>Hacer que los campos sean obligatorios usando required<br><br>
-          Restrigir la longitud de los datos:
-          <ul>
-            <li>minlenght,maxlenght: para datos de texto</li>
-            <li>min y max para valor maximo de tipo numero</li>
-          </ul>
-          Restringir el tipo de datos usando type="email"<br>
-          Especifaca un patron de extresiones regulares que los datos ingresados del formulario deben coincidir.
         
-        </p>
-          <p>readonly<br>disabled<br>placeholder<br>autofocus<br>novalidate<br>otros</p>
-        </article>
         
       </section>
     </main>
 
+    <aside>
+      <article>
+        <h4>Envia tu Consulta:</h4>
+        <hr>
+        <form action="" method="">
+          <label for="">Nombre: </label><br>
+          <input type="text" name="" id="" placeholder="Ingrese su nombre: " min="3" max="30" required><br><br>
+          <label for="">Email:</label><br>
+          <input type="email" name="" id="" placeholder="Ingrese su email: " required><br><br>
+          <label for="">Consulta:</label><br>
+          <textarea name="" id="" cols="30" rows="10" placeholder="Escriba su consulta: " required></textarea><br><br>
+
+          <input type="reset" value="Resetear">
+          <input type="submit" value="Enviar Consulta">
+        </form>
+      </article>
+    </aside>
+
     <footer>
       <br />
+      <small align="left">Contactame:</small>
+      <p align="left">
+        <a href="https://twitter.com/naomipoclava" target="blank"><label class="a-label" for="">Twitter</label> <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="naomipoclava" height="30" width="40" /></a>
+        <a href="https://www.linkedin.com/in/naomi-poclava-9180181ab/" target="blank"> <label class="a-label" for="">Linkedin</label> <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="naomi-poclava" height="30" width="40" /></a>
+        <a href="https://www.facebook.com/naomi.poclava/" target="blank"><label class="a-label" for="">Facebook</label> <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/naomi.poclava" height="30" width="40" /></a>
+        <a href="https://www.instagram.com/naomi_poclava/?hl=es-la" target="blank"><label class="a-label" for="">Instagram</label> <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="@naomi_poclava" height="30" width="40" /></a>
+        <a href="https://www.youtube.com/channel/UCDtTH-eGYi8K6nCEIrmacbg" target="blank"><label class="a-label" for="">Youtube</label> <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/channel/ucdtth-egyi8k6nceirmacbg" height="30" width="40" /></a>
+      </p>
       <address>Autor: Naomi Milagro Poclava</address>
     </footer>
 
