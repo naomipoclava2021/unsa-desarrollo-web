@@ -12,7 +12,7 @@
       <nav></nav>
 
       <h1>
-        Formulario de consulta
+        Registrarse
       </h1>
     </header>
 
@@ -21,14 +21,22 @@
         <article>
           <form action="" method="">
             <label for="">Nombre: </label><br>
-            <input type="text" name="" id="" placeholder="Ingrese su nombre: " min="3" max="30" required><br><br>
+            <input type="text" name="" id="" placeholder="Ingrese su nombre: " min="3" max="30" minlength="4" maxlength="45" required><br><br>
             <label for="">Email:</label><br>
             <input type="email" name="" id="" placeholder="Ingrese su email: " required><br><br>
-            <label for="">Consulta:</label><br>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Escriba su consulta: " required></textarea><br><br>
+            <label for="">Pasword:</label><br>
+            <input type="password" name="" id="" placeholder="Ingrese una contraseña:" minlength="8" required><br><br>
+            <label for="">Fecha Nacimiento</label><br>
+            <input type="date" name="" id="" required><br><br>
+            <label for="">Edad:</label><br>
+            <input type="number" name="" id="" placeholder="Ingrese su edad:" max="120" required><br><br>
+
+            <label for="">Elegir un color</label>
+            <input type="color" name="" id=""><br><br>
+
 
             <input type="reset" value="Resetear">
-            <input type="submit" value="Enviar Consulta">
+            <input type="submit" value="Enviar">
           </form>
         </article>
         
