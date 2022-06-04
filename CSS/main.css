@@ -1,4 +1,280 @@
-body{
+/* body{
     background-color: rgb(12, 12, 12);
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+ */
+
+/* h1{
+    color: gray;
+    text-align: center;
+} */
+
+/* p{
+    font-size: large;
+    font-family: sans-serif;
+} */
+
+/* #para1{
+    text-align: right;
+    color: blue;
+} */
+
+/* #para2{
+    text-align: left;
+    color: gray;
+} */
+
+/* #para3{
+    color: aqua;
+    text-align: center;
+} */
+
+/* .center{
+    text-align: center;
+    color: red;
+} */
+
+/* p.center{
+    text-align: right;
+    color: red;
+} */
+
+/* p.large{
+    font-size: large;
+} */
+
+/* * {
+    text-align: center;
+    color: blue;
+} */
+
+/* h1, h2, h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+} */
+
+
+/* body{
+    background-color: lightblue;
+}
+
+h1{
+    color: navy;
+    margin-left: 20px;
+}
+
+p{
+    font-size: large;
+    font-family: sans-serif;
+} */
+
+
+/* p{
+    font-size: large;
+    font-family: sans-serif;
+} */
+
+/* h3{
+    color: red;
+} */
+
+
+
+.div{
+    text-align: center;
+}
+
+.p{
+    color: white;
+    padding: 0.01em 16px;
+}
+
+body{
+    background-color: rgb(12, 12, 12);
+    background-image: url("https://i.pinimg.com/originals/a0/4b/23/a04b23beb1b91d4aed1b730140264f26.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+/* .p2{
+    margin-left: 100px;
+    color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p2.opacidad{
+    background-color: red;
+    opacity: 0.7;
+    color: whitesmoke;
+} */
+
+
+p{
+    padding: 0.01em 20px;
+
+}
+
+
+p.p1{
+    color: grey;
+    border: 3px dotted;
+    background-color: #000;
+}
+
+p.p2{
+    border-bottom: 1px solid;
+    border-color: red;
+}
+
+p.p3{
+    border: 1px solid #ccc;
+    border-radius: 16px;
+}
+
+p.p4{
+    color: white;
+    border-left: 6px solid;
+    border-color: #ff8b96;
+    background-color: #ffeb96;
+}
+
+
+#verde{
+    height: 200px;
+    width: 50%;
+    background-color: mediumseagreen;
+}
+
+#rojo{
+    height: 100px;
+    max-width: 600px;
+    background-color: red;
+}
+
+.figcaption{
+    width: 320px;
+    padding: 10px;
+    border: 5px solid lightblue;
+    margin: 0;
+}
+
+p.p5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-size: 40px; */
+    font-size: 2.5em;/* 40px/16 = 2.5em */
+    font-style: italic;
+}
+
+p.p6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-size: 30px; */
+    font-size: 1.875em; /* 30px/16 = 1.875em */
+
+}
+
+p.p7{
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+    /* font-size: 14px; */
+    font-size: 0.875em; /* 14px/16 = 0.875em */
+    font-weight: bold;
+}
+
+h1.a{
+    font-family: 'Lato', sans-serif;
+    
+}
+h1.b{
+    font-family: 'Great Vibes', cursive;   
+}
+
+h1.c{
+    font-family: 'Roboto', sans-serif;   
+}
+
+h1.d{
+    font-family: 'Ubuntu', sans-serif;  
+}
+h1.e{
+    font-family: 'Zilla Slab', serif;
+}
+
+a.a:link{
+    color: red;
+}
+
+a.a:visited{
+    color: green;
+}
+
+a.a:hover{
+    color: gray;
+}
+
+a.a:active{
+    color: white;
+}
+
+
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a:hover, a:active{
+    color: #059862;
+}
+
+.txtlink1:hover{
+    color: #059862;
+}
+
+.txtlink2{
+    color: green;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.txtlink2:hover{
+    text-decoration: underline;
+}
+
+.button{
+    border: 2px solid #04AA6D;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 10px ;
+}
+
+.button:hover{
+    background-color: #059863;
+    color: white;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #f44336;
+    color: #fff;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 20px;
+    opacity: 0.9;
+}
+
+.btn:hover{
+    color: white;
+    background-color: red;
+    opacity: 1;
 }
