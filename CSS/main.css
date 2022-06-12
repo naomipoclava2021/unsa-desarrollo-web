@@ -1,4 +1,56 @@
 body{
-    background-color: black;
-    color: white;
+    background-color: rgb(10, 12, 11);
+    color: rgba(144, 246, 250, 0.959);
+}
+
+nav {
+    background-color: rgb(184, 180, 206);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav li{
+    float: left;
+}
+
+nav li:last-child{
+    border-right: none;
+}
+
+nav a{
+    display: block;
+    color: rgb(217, 204, 248);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgba(250, 15, 211, 0.986);
+
+}
+
+section{
+    margin-top: 55px;
+}
+
+section:nth-child(even){
+    background-color: rgba(30, 23, 54, 0.13);
+    color: rgb(223, 250, 235);
+}
+
+section a {
+    color: rgb(157, 194, 55);
 }
