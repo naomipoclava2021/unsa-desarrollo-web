@@ -1,67 +1,136 @@
 body{
-    background-color: rgb(12, 12, 12);
-    color: white;
-}
-input{
-    border:none;
-    color: rgb(94, 224, 224);
-    background-color: rgb(104, 99, 90);
-    margin-top: 2%;
+    background-color: rgb(10, 12, 11);
+    color: rgba(144, 246, 250, 0.959);
 }
 
-input::placeholder{
-    color: cyan;
-    background-color: gray;
+nav {
+    background-color: rgb(184, 180, 206);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
 }
 
-
-
-textarea{
-    background-color: grey;
-    border: none;
-    color: cyan;
-    margin-top: 2%;
-}
-
-textarea::placeholder{
-    color:cyan;
-    background-color: gray;
-}
-
-h3{
-    text-align: right;
-} 
-
-
-p{
-    text-align: justify;
-}
-
-
-.img{
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
     width: 100%;
 }
 
-
-
-.a-label{
-    color: aliceblue;
-    padding-right: 3%;
+nav li{
+    float: left;
 }
 
-.a-label:hover{
-    color: aqua;
+nav li:last-child{
+    border-right: none;
 }
 
-figcaption{
+nav a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgba(7, 42, 87, 0.986);
+
+}
+
+section{
+    margin-top: 55px;
+}
+
+
+section a {
+    color: rgb(157, 194, 55);
+}
+
+
+section p, figcaption{
+    color: beige;
+}
+
+section figcaption{
+    font-size: 3vw;
+}
+
+
+
+footer{
+    background-color: rgb(51, 51, 48);
+    overflow: hidden;
+
+}
+
+footer h3{
+    padding: 20px 10px ;
+    color: #fff;
+}
+
+footer a {
+    border: 2px solid rgb(184, 180, 206);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+footer a:hover{
+    background-color: rgba(7, 42, 87, 0.986);
+    color: #fff;
+}
+
+
+section img{
+    width: 300px;
+    margin: 0px 10px;
+    float: right;
+}
+
+section{
+    overflow: auto;
+}
+
+section h1{
+    font-size: 10vw;
     text-align: center;
 }
 
-span{
-    font-size: 25px;
+section h2,h3{
+    padding: 20px 40px;
+    font-size: 5vw;
 }
 
-.span-color{
-    color: rgb(42, 109, 172);
-    font-size: medium;
-} 
+section p{
+    padding: 20px 40px;
+    font-size: 3vw;
+}
+ 
+section ul{
+    /* list-style-type: none; */
+    color: #fff;
+    font-size: 3vw;
+    margin: 0;
+
+}
+
+
+aside{
+    padding: 30px;
+    background-color: rgba(34, 36, 39, 0.986);
+}
+
+aside h2{
+    font-size: 5vw;
+    color: #fff;
+}
