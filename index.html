@@ -3,188 +3,554 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0" />
     <title>Naomi Milagro Poclava</title>
     <link rel="stylesheet" type="text/css" href="CSS/main.css" />
-    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://necolas.gitdub.io/normalize.css/8.0.1/normalize.css">
   </head>
   <body>
     <header>
+      <h1>CURSO DE EXTENSION INTRODUCCION AL DESARROLLO WEB</h1>
+      <h2>Clase N° 3 de CSS</h2>
       <nav>
         <ul>
-          <li><a href="index.html">Incio</a></li>
-          <li><a href="Html/galeria.html">Galeria</a></li>
-          <li><a href="Html/entretenimiento.html">Entrenimiento</a></li>
-          <li><a href="Html/formulario.html" >Formulario</a></li>
-          <li><a href="Html/registrarse.html">Registarse</a></li>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">Acerca de</a></li>
+          <li><a href="contact.html">Contacto</a></li>
         </ul>
       </nav>
     </header>
 
+
     <main>
       <section>
         <article>
-          <h1>Mi Portfolio</h1>
-          <h2>Desarrollador Web Full Stack </h2>
+          <h2>Selectores de CSS</h2>
+          <p>Los selectores de CSS se utilizan para "encontrar" (o seleccionar) los
+            elementos HTML que se quieren diseñar. <br><br>
+            <b>Selectores simples</b> - seleccionar elementos basados en nombre, id, Clase <br>
+            <b>Selectores combinadores</b> - seleccionar elementos en funcion de una 
+            relacion especifica entre ellos <br>
+            <b>Selectores de pseudoelementos</b> - seleccionar y diseñar una parte de un
+            elemento <br>
+            <b>Selectores de atributos</b> - seleccionar elementos en funcion de un atributo 
+            o valor de atributo.
+          </p>
+
+          <h2>Selectores de Pseudoelementos</h2>
+          <p>Un pseudoelemento se utiliza para aplicar estilo a partes especificas de un 
+            elemento. Por ejemplo, se puede utilizar para: <br>
+            - Aplicar estilo a la  primera letra, o linea, de un elemento. <br>
+            - Insertar contenido antes o despues del contenido de un elemento. <br><br>
+
+            <b>::first-latter*</b>-- para agregar un estilo especial a la primero letra de un texto. <br>
+            <b>::first-line*</b>-- para agregar un estilo especial a la primera linea de un texto. <br>
+            <b>::before</b>-- para insertar algun contenido antes del contenido de un elemento. <br>
+            <b>::after</b>-- para insertar algun contenido despues del contenido de un elemento. <br><br>
+
+            *solo se puede aplicar a elementos a nivel de bloque.
+          </p>
         </article>
-        
+
         <article>
-          <figure>
-            <img class="img" src="https://avatars.githubusercontent.com/u/95596561?s=400&u=b2805ceb4a75bf4072bdf0920cddbeee502f1b72&v=4" alt="No Disponible">
-            <figcaption >
-              Soy Naomi Milagro Poclava, vivo en Argentina, provincia de Salta. <br>
-
-              He realizado varios cursos tanto de backend como de frontend . Me encuentro en fase de armado de proyectos. <br>
-
-              Estoy dispuesta a escuchar propuestas de trabajo y empezar a incursionar en el mercado laboral.
-
-            </figcaption>
-          </figure>
+          <h2>Slectores de Pseudoelementos</h2>
+          <p>La libertad, Sancho, es uno de los mas preciosos dones que a los hombres dieron los cielos;
+            con ella no pueden igualarse los tesoros que encierra la tierra ni el mar encubre; por la
+            libertad asi como por la honra se puede y debe aventurar la vida...
+          </p>
         </article>
+
       </section>
     </main>
 
     <section>
       <article>
-        <h2>Sobre mí</h2>
-        <p>Terminé el secundario en una técnica gastronómica, donde aprendí a realizar aperitivos gourmet, me encantó tener conocimientos 
-          en  nutrición y vitivinicultura. Por esta razón cuando programo trato de tener a mi alrededor alternativas saludables, mis 
-          pequeñas acciones son tomar agua, consumir snack de frutos secos y algunas frutas.</p>
+        <table>
+          <th colspan="5">La Final</th>
+          <tr>
+            <td id="gatito">Gatito</td>
+            <td class="result">3</td>
+            <td><em>vs</em></td>
+            <td>Boca Juniors</td>
+            <td class="result" id=meet>1</td>
+        </table>
       </article>
     </section>
 
     <section>
       <article>
-        <h2>Mis habilidades</h2>
-        <p>
+        <h2>Selectores de Atributos</h2>
+        <p>Permite aplicar estilo a elementos  HTML que tengan atributos o valores de 
+          atributo especificados. <br>
+          <b>[attribute]</b> --selecciona elementos con un atributo especifico. <br>
+          <b>[attribute=value]</b> --selecciona elementos con un valor de atributo que contiene 
+          una palabra especifica. <br>
+          <b>[attribute~=value]</b> --selecciona elementos con un valor de atributo que contiene 
+          una palabra especifica. <br>
+          <b>[attribute|=value</b> --selecciona elementos con el atributo especificado, cuyo
+          valor es exactamente el valor especificado, o el valor especificado seguido de un 
+          guion (-). <br>
+          <b>[attribute^=value]</b> --selecciona elementos con el atributo especificado, cuyo
+          valor comienza con el valor especificado. <br>
+          <b>attribute$=value]</b> --selecciona elementos cuyo valor de atributo termina con un 
+          valor especificado. <br>
+          <b>[attribute*=value]</b> --selecciona elementos cuyo valor de atributo contine un 
+          valor especificado. <br>
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <article>
+        <ul>
+          <li><a href="#mienlace">Ejemplo comienza con #</a></li>
+          <li><a href="https://www.siuguarani.com/unsa">Ejemplo contiene unsa</a></li>
+          <li><a href="http://www.unsa.edu.ar">Ejemplo termina con .edu.ar</a></li>
+          <li><a href="https://exactas.unsa.edu.ar">Ejemplo comienza con https y termina con .edu.ar</a></li>
+        </ul>
+      </article>
+    </section>
+
+
+
+    <section>
+      <article>
+        <h2>Box-sizing</h2>
+        <p>De forma predeterminada, el ancho y la altura de un elemento se calcula asi: <br><br>
+          ancho + relleno + border = ancho real de un elemento <br>
+          alto + relleno + border = altura real de un elemento
+        </p>
+      </article>
+    </section>
+
+
+    <section>
+      <article>
+        <div id="contenedor-padre">
+          <p>Contenedor Padre</p>
+          <div id="contenedor-hijo" class="boxsizing">
+            <p>Contedor Hijo</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+
+    <section>
+      <article>
+        <div id="contenedor-padre">
+          <p>Contenedor Padre</p>
+          <div id="contenedor-hijo" class="boxsizing2">
+            <p>Contenedor Hijo</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <article>
+        <div id="contenedor-padre">
+          <p>Contenedor Padre</p>
+          <div id="contenedor-hijo" class="boxsizing3">
+            <p>Contenedor Hijo</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+
+    <section>
+      <article>
+        <h2>Box-Sizing</h2>
+        <p>Como el resultado de utilizar box-sizing: <b>border-box</b>  es mucho mejor, es
+          comun hacer que todos los elementos de la pagina funcionen de esta 
+          manera mediante la siguiente regla: <br> <br>
+          <b>
+          * {
+            box-sizing: border-box;
+          }
+          </b>
+        </p>
+      </article>
+    </section>
+
+
+    <section>
+      <article>
+        <h2>Responsive Web Design</h2>
+        <p>El objetivo de RWD es que la pagina web se muestre y funcione
+          correctamente en cualquier dispositivo. <br>
+        </p>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174458625-68dadcfa-d7cf-413c-b9b5-1f1f77104a43.png" alt="No disponible" title="Responsive Web Design" width="100%">
+          <figcaption>Responsive Web Design</figcaption>
+        </figure>
+      </article>
+
+      <article>
+        <h2>Responsive Web Design</h2>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174458936-01cd1a53-eeb6-47c9-b011-5f54fa614b58.png" alt="No disponible" title="Responsive Web Design" width="100%">
+          <figcaption>Responsive Web Design</figcaption>
+        </figure>
+      </article>
+
+      <article>
+        <h2>Responsive Web Design</h2>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174459033-f4e13dc1-6a68-46fd-8439-3cacf15c319c.png" alt="No disponible" title="Responsive Web Design" width="100%">
+          <figcaption>Responsive Web Design</figcaption>
+        </figure>
+      </article>
+
+      <article>
+        <h2>Responsive Web Design</h2>
+        image.png
+      </article>
+    </section>
+
+    <section>
+      <article>
+        <h2>Viewport</h2>
+        <p>El viewport es el area visible que tiene el usuario de una pagina web, y 
+          cambia segun el dispositivo. <br><br>
+          HTML5 mediante la etiqueta meta, permite que el navegador establezca el
+          ancho del viewport igual al ancho de la pantalla del dispositivo actual. El 
+          valor de escala inicial establece el nivel de zoom en 1 (100%).
+        </p>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174459791-ac4e490c-58c7-4f78-8bd8-39ebdd465f90.png" alt="No disponible" title="Viewport" width="100%">
+          <figcaption>Viewport</figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <section>
+      <article>
+        <h2>Grid View</h2>
+        <p>Con una vista de cuadricula es posible dividir la pagina en columnas, haciendo mas 
+          facil ubicar los elementos en ella. <br>
+          Generalmente tiene 12 columnas y un ancho total del 100%.
+        </p>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174459962-06cd78df-6a7f-4cff-92dd-61a772716594.png" alt="No disponible" title="Viewport" width="100%">
+          <figcaption>Grid View</figcaption>
+        </figure>
+      </article>
+
+      <article>
+        <h2>Grid View</h2>
+        <p>Con una vista de cuadricula es posible dividir la pagina en columnas, haciendo mas 
+          facil ubicar los elementos en ella. <br>
+          Generalmente tiene 12 columnas y un ancho total del 100%.
+        </p>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174460074-848ba0bf-09ed-4dc7-a182-cc7997caceb0.png" alt="No disponible" title="Viewport" width="100%">
+          <figcaption>Grid View</figcaption>
+        </figure>
+      </article>
+
+      <article>
+        <h2>Grid View</h2>
+        <h3>Ejemplo de la pagina web con dos columnas: en la section siguiente</h3>
+      </article>
+    </section>
+
+    <section>
+      <!-- <article id="box-sizing-4">
+        <div class="header">
+          <h2>Introduccion al Desarrollo Web</h2>
+        </div>
+        <div class="menu">
           <ul>
-            <li>PYTHON</li>
-            <li>JAVA</li>
-            <li>JAVASCRIPT</li>
-            <li>NODE JS</li>
             <li>HTML</li>
             <li>CSS</li>
-            <li>BOOTSTRAP</li>
-            <li>GIT</li>
-            <li>GITHUB Y GITLAB</li>
+            <li>Javasript</li>
+            <li>Tp Final</li>
           </ul>
-        </p>
-      </article>
+        </div>
+        <div class="main">
+          <h2>CSS</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus tenetur alias veniam ullam, consectetur tempore ut sunt quod error mollitia quam esse eos, voluptas totam harum cumque rem voluptate odio animi accusamus. Consectetur hic voluptas aut tempore qui iste minima tenetur itaque facere consequatur, alias, magni dolorum beatae delectus iusto aliquid! Officiis deleniti vero et accusantium temporibus, saepe quidem cupiditate!</p>
+        </div>
+      </article> -->
     </section>
-    
-    <section>
-      <article>
-        <h2>Aptitudes</h2>
-        <p>
-          <ul>
-            <li>Trabajo en equipo</li>
-            <li>Paciencia</li>
-          </ul>
-        </p>
-      </article>
-    </section>
+
 
     <section>
       <article>
-        <h2>Objetivos</h2>
-        <p>
-          <ul>
-            <li>Desarrollar aplicaciones web con REACT</li>
-            <li>Conseguir un puesto de trabajo acorde a mis conocimientos</li>
+        <h2>Grid View</h2>
+        <p>Ahora utilizaremos una vista de cuadricula con 12 columnas, para tener mas control 
+          de la pagina. <br><br>
+          El porcentaje para una columna viene dado por:100% /12 columnas = 8.33%. <br><br>
+          Y ahora hecemos una clase class="col-" para cada 
+          una de las 12 columnas, y un numero que indica
+          cuantas columnas debe ocupar la seccion. <br><br>
+          Todas estas columnas deben flotar a la izquierda y tener un padding de 15px
         </p>
       </article>
     </section>
 
     <section>
       <article>
-        <h2>Cursos realizados</h2>
-        <h3>1000 Programadores - PYTHON</h3>
-        <p>Proyecto 1000 Programadores Salteños <br>
-          Certificado por la Universidad Nacional de Salta <br>
-          Octubre a Diciembre de 2021 <br>
-          Estado: Concluido y terminado. <br>
-          <a href="https://acortar.link/zBbcpp " target="_blank" rel="noopener noreferrer">Certificado</a>
-          </p>
+        <h2>Grid View</h2>
+        <p>Cada fila debe estar dentro de un --div--. El numero dentro de una fila 
+          simbre debe sumar 12.
+        </p>
       </article>
+      
       <article>
-        <h3>1000 Programadores Salteños - JAVA</h3>
-        <p>Proyecto 1000 Programadores Salteños <br>
-          Certificado por la Universidad Nacional de Salta <br>
-          Marzo a Julio de 2022 <br>
-          Estado: Fase Final
-          </p>
-      </article>
-
-      <article>
-        <h3>Introduccion al Desarrolo Web Unsa</h3>
-        <p>Departamento de Informática <br>
-          Certificado por la Universidad Nacional de Salta <br>
-          Abril a Junio de 2022 <br>
-          Estado: En desarrollo.
-          </p>
+        <div class="row">
+          <div class="col-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quaerat earum corporis asperiores facilis minima facere illum eum itaque cupiditate rerum doloribus, eaque dolorem quasi magnam quisquam, sapiente minus at.</div>
+          <div class="col-9">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, veritatis? Illum corrupti consectetur quos aut harum porro, eveniet nemo voluptatem quidem distinctio mollitia? Quaerat non distinctio voluptatum minima sapiente dolorem.</div>
+        </div>
       </article>
     </section>
 
     <section>
       <article>
-        <h2>Mis Proyectos</h2>
-        <h3>Creación del Videojuego Llama Jam</h3>
-        <p>
-          Global Game JAM 2022 <br>
-          Enero de 2022 <br><br>
-
-          Colaboré en el desarrollo y programación del videojuego Llama-Jam, un juego de plataforma
-          <ul>
-            <li><a href="https://globalgamejam.org/2022/games/llama-2" target="_blank" rel="noopener noreferrer">JAMA JAM</a></li>
-          </ul>
-
+        <h2>Grid View</h2>
+        <p>Cada fila debe estar dentro de un --div--. El numero de columnas dentro de una fila
+          siempre debe sumar 12.
+        </p>
+      </article>
+      <article>
+        
+        <p>Todas las columas dentro de una fila estan flotando a la izquierda, y sale del flujo 
+          de la pagina, para evitar que otros elementos se coloquen como si las columnas no 
+          existieran, agregamos la siguiente regla.
         </p>
       </article>
 
       <article>
-        <h3>Cinemar</h3>
-        <p>
-          Gestión de boletos y Salas de un cine
-          Junio 2022 <br><br>
-          En este proyecto usamos github para trabajar en equipo y compartir código . El programa se realizará en Java y usaremos como base de datos MySQL. Esperamos que el usuario se registre, inicie sesión, compre un boleto y que se le asigne una sala. <br>
-          <ul>
-            <li><a href="https://github.com/naomipoclava2021/CINEMAR-JAVA-CM3" target="_blank" rel="noopener noreferrer">Repositorio de GitHub</a></li>
-          </ul>
+        <div class="row">
+          <div class="col-3">Lorem ipsum,</div>
+          <div class="col-9">Lorem ipsum, dolor sit a.</div>
+        </div>
+      </article>
+    </section>
 
+
+    <section>
+      <article class="body">
+        <div class="header">
+          <h2>Introduccion al Desarrollo Web</h2>
+        </div>
+        <div class="row">
+          <div class="menu col-3">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javasript</li>
+              <li>Tp Final</li>
+            </ul>
+          </div>
+          <div class="main col-9">
+            <h2>CSS</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus tenetur alias veniam ullam, consectetur tempore ut sunt quod error mollitia quam esse eos, voluptas totam harum cumque rem voluptate odio animi accusamus. Consectetur hic voluptas aut tempore qui iste minima tenetur itaque facere consequatur, alias, magni dolorum beatae delectus iusto aliquid! Officiis deleniti vero et accusantium temporibus, saepe quidem cupiditate!</p>
+          </div>
+        </div>
+        
+      </article>
+    </section>
+
+
+    <section>
+      <article>
+        <h2>Media Queries</h2>
+        <p>La regla @media se utiliza para obtener informacion del medio en el que se muestra 
+          el doucumento, y asi poder aplicar distintos estilos. <br>
+          Se puede obtener informacion sobre ancho y alto del viewport, la orientacion del
+          dispositivo, resolucion, etc.
+        </p>
+
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174462447-a26fa63b-14d9-4d22-abbe-982ce9af8a6c.png" alt="No disponible" title="Viewport" width="100%">
+          <figcaption>Media Queries</figcaption>
+        </figure>
+
+        <p>Tambien puede tener diferentes hojas de estilo para diferentes medios, como esta: </p>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174462517-517b88bc-21eb-4519-b1fa-431b47ebf3be.png" title="Viewport" width="100%">
+          <figcaption>Media Queries</figcaption>
+        </figure>
+      </article>
+    </section>
+
+
+    <section>
+      <article>
+        <h1>Media Queries</h1>
+      </article>
+
+      <article class="body-media-queries">
+        <h2>Redimencionar la pantalla del navegador</h2>
+        <p>Utiliza mediaqueries para cambiar el backgroud-color to BlueViolet 
+          si el viewport es de 800 pixeles o mas, a DodgerBlue si el viewport
+          tiene entre 400 y 800 pixeles de ancho. Si el viewport tiene menos de 
+          400 pixels, el background-color es LimeGreen.
         </p>
       </article>
     </section>
 
-   
-    <aside align="center">
+    <section>
       <article>
-        <h2>Envia tu Consulta:</h2>
-        <form action="" method="">
-          <label for="">Nombre: </label><br>
-          <input type="text" name="" id="" placeholder="Ingrese su nombre: " min="3" max="30" required><br><br>
-          <label for="">Email:</label><br>
-          <input type="email" name="" id="" placeholder="Ingrese su email: " required><br><br>
-          <label for="">Consulta:</label><br>
-          <textarea name="" id="" cols="30" rows="10" placeholder="Escriba su consulta: " required></textarea><br><br>
-
-          <input type="reset" value="Resetear">
-          <input type="submit" value="Enviar Consulta">
-        </form>
+        <h2>Media Queries</h2>
+        <p>Vamos a modifica nuestra pagina agregandole una seccion lateral, y un footer</p>
       </article>
+
+      <article class="body">
+        <div class="header">
+          <h2>Introduccion al Desarrollo Web</h2>
+        </div>
+        <div class="row">
+          <div class="menu col-3">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javasript</li>
+              <li>Tp Final</li>
+            </ul>
+          </div>
+          <div class="main col-6">
+            <h2>CSS</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus tenetur alias veniam ullam, consectetur tempore ut sunt quod error mollitia quam esse eos, voluptas totam harum cumque rem voluptate odio animi accusamus. Consectetur hic voluptas aut tempore qui iste minima tenetur itaque facere consequatur, alias, magni dolorum beatae delectus iusto aliquid! Officiis deleniti vero et accusantium temporibus, saepe quidem cupiditate!</p>
+          </div>
+          <div class="aside col-3">
+            <h3>HTML</h3>
+            <p>Utilizado para dar la estructura</p>
+            <h3>CSS</h3>
+            <p>Ulitlizada para ofrecer la presentacion</p>
+            <h3>Javascript</h3>
+            <p>Utilizado para brindar la funcionalidad</p>
+          </div>
+        </div>
+        <div class="footer">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veniam similique deserunt. Dolore velit aliquid totam voluptatem, eum nostrum a?</p>
+        </div>
+      </article>
+    </section>
+
+
+    <section>
+      <article>
+        <h2>Media Queries</h2>
+        <p>Con media queries podemos agregar un breakpoint, a partir del cual ciertas
+          partes del diseño se comportaran de manera diferentes a caqda lado de ese 
+          breakpoint. <br><br>
+          Cuando el viewport es menor o igual a 768 px, cada columna tendra un ancho de 100%.
+        </p>
+      </article>
+    </section>
+
+
+    <section>
+      <article>
+        <h2>Media Queries</h2>
+        <p>Diseñar para dispositivs moviles antes de diseñar para computadoras de escritorio o
+          cualquier otro dispositivo hara que la pagina se muestre mas rapido en dispositivos 
+          mas pequeños. <br><br>
+        </p>
+      </article>
+    </section>
+
+
+    <section>
+      <article>
+        <h2>Media Queries</h2>
+        <p>Se puede agregar otros breakpoints. En este ejemplo se agrega un media query, 
+          y se establecen nuevas clases para dispositivos con viewport mas grande o igual a 
+          600px (pero menores de 768px)
+        </p>
+      </article>
+      
+      <article class="body">
+        <div class="header">
+          <h2>Introduccion al Desarrollo Web</h2>
+        </div>
+        <div class="row">
+          <div class="menu col-3 col-s-3">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javasript</li>
+              <li>Tp Final</li>
+            </ul>
+          </div>
+          <div class="main col-6 col-s-9">
+            <h2>CSS</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus tenetur alias veniam ullam, consectetur tempore ut sunt quod error mollitia quam esse eos, voluptas totam harum cumque rem voluptate odio animi accusamus. Consectetur hic voluptas aut tempore qui iste minima tenetur itaque facere consequatur, alias, magni dolorum beatae delectus iusto aliquid! Officiis deleniti vero et accusantium temporibus, saepe quidem cupiditate!</p>
+          </div>
+          <div class="aside col-3 col-s-12">
+            <h3>HTML</h3>
+            <p>Utilizado para dar la estructura</p>
+            <h3>CSS</h3>
+            <p>Ulitlizada para ofrecer la presentacion</p>
+            <h3>Javascript</h3>
+            <p>Utilizado para brindar la funcionalidad</p>
+          </div>
+        </div>
+        <div class="footer">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veniam similique deserunt. Dolore velit aliquid totam voluptatem, eum nostrum a?</p>
+        </div>
+      </article>
+    </section>
+
+
+    <section>
+      <article>
+        <h2>Imagenes</h2>
+        <p>Si la propiedad with se establece en un porcentaja y la propiedad height se 
+          establece un auto, la imagen se enlara hacia arriba y hacia abajo
+        </p>
+      </article>
+
+      <article class="body">
+        <div class="header">
+          <h2>Introduccion al Desarrollo Web</h2>
+        </div>
+        <div class="row">
+          <div class="menu col-3 col-s-3">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javasript</li>
+              <li>Tp Final</li>
+            </ul>
+          </div>
+          <div class="main col-6 col-s-9">
+            <h2>CSS</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus tenetur alias veniam ullam, consectetur tempore ut sunt quod error mollitia quam esse eos, voluptas totam harum cumque rem voluptate odio animi accusamus. Consectetur hic voluptas aut tempore qui iste minima tenetur itaque facere consequatur, alias, magni dolorum beatae delectus iusto aliquid! Officiis deleniti vero et accusantium temporibus, saepe quidem cupiditate!</p>
+            <figure>
+              <img src="https://images3.alphacoders.com/857/857335.jpg" title="Viewport" width="460">
+              <figcaption>Imagen width=460 para pc y width: 100% para movil con height: auto</figcaption>
+            </figure>
+          </div>
+          <div class="aside col-3 col-s-12">
+            <h3>HTML</h3>
+            <p>Utilizado para dar la estructura</p>
+            <h3>CSS</h3>
+            <p>Ulitlizada para ofrecer la presentacion</p>
+            <h3>Javascript</h3>
+            <p>Utilizado para brindar la funcionalidad</p>
+          </div>
+        </div>
+        <div class="footer">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veniam similique deserunt. Dolore velit aliquid totam voluptatem, eum nostrum a?</p>
+        </div>
+      </article>
+      
+    </section>
+
+    <aside>
+
     </aside>
 
     <footer>
-      <h3 align="left">Contactame:</h3>
-      <p align="left">
-        <a href="https://twitter.com/naomipoclava" target="blank"><label class="a-label" for="">Twitter</label> <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="naomipoclava" height="30" width="40" /></a>
-        <a href="https://www.linkedin.com/in/naomi-poclava-9180181ab/" target="blank"> <label class="a-label" for="">Linkedin</label> <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="naomi-poclava" height="30" width="40" /></a>
-        <a href="https://www.facebook.com/naomi.poclava/" target="blank"><label class="a-label" for="">Facebook</label> <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/naomi.poclava" height="30" width="40" /></a>
-        <a href="https://www.instagram.com/naomi_poclava/?hl=es-la" target="blank"><label class="a-label" for="">Instagram</label> <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="@naomi_poclava" height="30" width="40" /></a>
-        <a href="https://www.youtube.com/channel/UCDtTH-eGYi8K6nCEIrmacbg" target="blank"><label class="a-label" for="">Youtube</label> <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/channel/ucdtth-egyi8k6nceirmacbg" height="30" width="40" /></a>
-      </p>
-      <address>Autor: Naomi Milagro Poclava</address>
+
     </footer>
 
+    
     <script src="Js/main.js"></script>
   </body>
 </html>
