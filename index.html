@@ -7,539 +7,376 @@
     <title>Naomi Milagro Poclava</title>
     <link rel="stylesheet" type="text/css" href="CSS/main.css" />
     <link rel="stylesheet" type="text/css" href="https://necolas.gitdub.io/normalize.css/8.0.1/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
-  <body>
-    <header>
-      <h1>CURSO DE EXTENSION INTRODUCCION AL DESARROLLO WEB</h1>
-      <h2>Clase N° 3 de CSS</h2>
-      <nav>
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="about.html">Acerca de</a></li>
-          <li><a href="contact.html">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-
-
-    <main>
-      <section>
-        <article>
-          <h2>Selectores de CSS</h2>
-          <p>Los selectores de CSS se utilizan para "encontrar" (o seleccionar) los
-            elementos HTML que se quieren diseñar. <br><br>
-            <b>Selectores simples</b> - seleccionar elementos basados en nombre, id, Clase <br>
-            <b>Selectores combinadores</b> - seleccionar elementos en funcion de una 
-            relacion especifica entre ellos <br>
-            <b>Selectores de pseudoelementos</b> - seleccionar y diseñar una parte de un
-            elemento <br>
-            <b>Selectores de atributos</b> - seleccionar elementos en funcion de un atributo 
-            o valor de atributo.
-          </p>
-
-          <h2>Selectores de Pseudoelementos</h2>
-          <p>Un pseudoelemento se utiliza para aplicar estilo a partes especificas de un 
-            elemento. Por ejemplo, se puede utilizar para: <br>
-            - Aplicar estilo a la  primera letra, o linea, de un elemento. <br>
-            - Insertar contenido antes o despues del contenido de un elemento. <br><br>
-
-            <b>::first-latter*</b>-- para agregar un estilo especial a la primero letra de un texto. <br>
-            <b>::first-line*</b>-- para agregar un estilo especial a la primera linea de un texto. <br>
-            <b>::before</b>-- para insertar algun contenido antes del contenido de un elemento. <br>
-            <b>::after</b>-- para insertar algun contenido despues del contenido de un elemento. <br><br>
-
-            *solo se puede aplicar a elementos a nivel de bloque.
-          </p>
-        </article>
-
-        <article>
-          <h2>Slectores de Pseudoelementos</h2>
-          <p>La libertad, Sancho, es uno de los mas preciosos dones que a los hombres dieron los cielos;
-            con ella no pueden igualarse los tesoros que encierra la tierra ni el mar encubre; por la
-            libertad asi como por la honra se puede y debe aventurar la vida...
-          </p>
-        </article>
-
-      </section>
-    </main>
+  <body class="bg-dark text-white">
+    <section>
+      <article>
+        <h2>Framework</h2>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174688867-8a05fdd2-a6d2-4f51-95b8-64ef6ee1dd78.png" title="Viewport" width="460">
+          <figcaption>Framework</figcaption>
+        </figure>
+        <h2>Framework</h2>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174689095-b036570f-4cde-4e0f-a0cf-b60b9b246024.png" title="Viewport" width="460">
+          <figcaption>Framework</figcaption>
+        </figure>
+        <h2>Framework</h2>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174689287-8cc829cb-e9f5-452c-ad9f-36abd11c0bfc.png" title="Viewport" width="460">
+          <figcaption>Framework</figcaption>
+        </figure>        
+      </article>
+    </section>
 
     <section>
       <article>
-        <table>
-          <th colspan="5">La Final</th>
+        <h2>Boostrap</h2>
+        <p>Desarrollo por Twittter, el principal objetivo de Booststrap es ofrecer un
+          un marco de trabajo (fremawork) para el desarrollo responsive 
+          de la interfaz de usuario web (front-end), manteniendo la compatibilidad
+          entre navegadores.
+        </p>
+      </article>
+      <article>
+        <h2>Boostrap - Instalacion</h2>
+        <p>Forma Sencilla <br>
+          Utilizamos su red de distribucion de contenidos o CDN
+        </p>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174690827-27aa0593-b665-4597-b1f2-e7df015e3929.png" title="Viewport" width="460">
+          <figcaption>Framework</figcaption>
+        </figure>   
+      </article>      
+    </section>
+
+    <section>
+      <article>
+        <h2>Bootstrap - Pagina basica</h2>
+      </article>
+      <article>
+        <div class="container p-5 my-5 bg-dark text-white">
+          <h1>Mi primera pagina de Bootstrap</h1>
+          <p>Este contenedor tine un color de fondo oscuro y un texto blanco, y alguno margenes y rellenos adicionales.</p>
+        </div>
+
+        <div class="container p-5 my-5 bg-primary text-white">
+          <h1>Mi primera pagina de Bootstrap</h1>
+          <p>Este contenedor tiene un color de fondo azul y un texto blanco, y algunos margenes y rellenos adicionales.</p>
+        </div>
+      </article>
+    </section>
+
+
+    <section>
+      <article>
+        <h2>Bootstrap - Container</h2>
+        <p>Los contenedores son el elemento de diseño mas basico en Bootstrap y 
+          son necesarios para utilizar el sistema de rejillas predeterminado. <br><br>
+          Se utiliza para contener, rellenar y (a veces) centrar el contenido dentro de ellos. <br><br>
+          Bootstrap viene con tres contenedores diferentes: <br>
+          .container, proporciona un contenedor de ancho fijo. <br>
+          .container-fluid, proporciona un contenedor de ancho completo, que 
+          abarca todo el ancho del viewport. <br>
+          .container-{breakpoint}, abarca un ancho de 100% hasta el punto de
+          quiebre (breakpoint)
+        </p>
+      </article>
+
+      <article>
+        <h2>Bootstrap - Sistema de Rejilla</h2>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174692553-2e6375d7-4dd3-478f-8aff-deee2da59149.png" title="Viewport" width="460">
+          <figcaption>Framework</figcaption>
+        </figure>   
+      </article>
+      <article>
+        <h2>Bootstrap - Sistema de Rejilla</h2>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174692781-e7c87bb8-878b-4709-940e-403a9bc4d738.png" title="Viewport" width="460">
+          <figcaption>Framework</figcaption>
+        </figure>   
+      </article>
+      <article>
+        <h2>Bootstrap - Sistema de Rejilla</h2>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174692935-77ad72f9-07d4-4bbc-8d55-b8be61896231.png" title="Viewport" width="460">
+          <figcaption>Framework</figcaption>
+        </figure>   
+      </article>
+      <article>
+        <h2>Bootstrap - Sistema de Rejilla</h2>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174693141-de9ae813-f251-4db9-a289-191c752fdb82.png" title="Viewport" width="460">
+          <figcaption>Framework</figcaption>
+        </figure>   
+      </article>
+      <article>
+        <h2>Bootstrap - Sistema de Rejilla</h2>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174693333-ec3a26a2-732f-455f-a908-d1009a570be5.png" title="Viewport" width="460">
+          <figcaption>Framework</figcaption>
+        </figure>   
+      </article>
+      <article>
+        <h2>Bootstrap - Sistema de Rejilla</h2>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174693536-fcbd9b7b-19cd-485e-b9c0-adb36a72b4d2.png" title="Viewport" width="460">
+          <figcaption>Framework</figcaption>
+        </figure>   
+      </article>
+      <article>
+        <h2>Bootstrap - Sistema de Rejilla</h2>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/174693700-44516cb8-3ab5-4793-baf1-37f7e740e780.png" title="Viewport" width="460">
+          <figcaption>Framework</figcaption>
+        </figure>   
+      </article>
+    </section>
+
+    <section>
+      <article>
+        <h2>Bootstrap - Sistema de Rejilla</h2>
+        <div class="container-fluid my-5">
+          <div class="row">
+            <div class="col-lg-1 col-sm-4 bg-primary text-white">1</div>
+            <div class="col-lg-1 col-sm-4 bg-secondary text-white">2</div>
+            <div class="col-lg-1 col-sm-4 bg-success text-white">3</div>
+            <div class="col-lg-1 col-sm-4 bg-danger text-white">4</div>
+            <div class="col-lg-1 col-sm-4 bg-warning text-dark">5</div>
+            <div class="col-lg-1 col-sm-4 bg-info text-white">6</div>
+            <div class="col-lg-1 col-sm-4 bg-light text-dark">7</div>
+            <div class="col-lg-1 col-sm-4 bg-dark text-white">8</div>
+            <div class="col-lg-1 col-sm-4 bg-white text-dark">9</div>
+            <div class="col-lg-1 col-sm-4 bg-primary text-white">10</div>
+            <div class="col-lg-1 col-sm-4 bg-secondary text-white">11</div>
+            <div class="col-lg-1 col-sm-4 bg-success text-white">12</div>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 bg-success">1/3</div>
+            <div class="col-md-8 bg-danger">2/3</div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3 bg-warning text-dark">1/4</div>
+            <div class="col-md-6 bg-info text-white">1/2</div>
+            <div class="col-md-3 bg-light text-dark">1/4</div>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-3 bg-dark text-white">1/4</div>
+            <div class="col-md-3 bg-white text-dark">1/4</div>
+            <div class="col-md-3 bg-dark text-white">1/4</div>
+            <div class="col-md-3 bg-white text-dark">1/4</div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3 bg-danger text-white">1/4</div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-6 bg-light">1/4</div>
+                <div class="col-md-6 bg-primary">1/4</div>
+              </div>
+            </div>
+            <div class="col-md-3">1/4</div>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <h2>Bootstrap - Tablas</h2>
+
+        <table class="table">
           <tr>
-            <td id="gatito">Gatito</td>
-            <td class="result">3</td>
-            <td><em>vs</em></td>
-            <td>Boca Juniors</td>
-            <td class="result" id=meet>1</td>
+            <th>#</th>
+            <th>Curso</th>
+            <th>Horas</th>
+            <th>Horario</th>
+          </tr>
+          <tr>
+            <th>1</th>
+            <th>HTML</th>
+            <th>20</th>
+            <th>14:00 - 16:00</th>
+          </tr>
+          <tr>
+            <th>2</th>
+            <th>CSS</th>
+            <th>20</th>
+            <th>16:00 - 18:00</th>
+          </tr>
+          <tr>
+            <th>3</th>
+            <th>JavaScript</th>
+            <th>60</th>
+            <th>18:00 - 20:00</th>
+          </tr>
+        </table>
+      </article>
+
+      <article>
+        <h2>Bootstrap - Tablas</h2>
+
+        <table class="table table-dark table-striped">
+          <tr>
+            <th>#</th>
+            <th>Curso</th>
+            <th>Horas</th>
+            <th>Horario</th>
+          </tr>
+          <tr>
+            <th>1</th>
+            <th>HTML</th>
+            <th>20</th>
+            <th>14:00 - 16:00</th>
+          </tr>
+          <tr>
+            <th>2</th>
+            <th>CSS</th>
+            <th>20</th>
+            <th>16:00 - 18:00</th>
+          </tr>
+          <tr>
+            <th>3</th>
+            <th>JavaScript</th>
+            <th>60</th>
+            <th>18:00 - 20:00</th>
+          </tr>
         </table>
       </article>
     </section>
 
+
     <section>
       <article>
-        <h2>Selectores de Atributos</h2>
-        <p>Permite aplicar estilo a elementos  HTML que tengan atributos o valores de 
-          atributo especificados. <br>
-          <b>[attribute]</b> --selecciona elementos con un atributo especifico. <br>
-          <b>[attribute=value]</b> --selecciona elementos con un valor de atributo que contiene 
-          una palabra especifica. <br>
-          <b>[attribute~=value]</b> --selecciona elementos con un valor de atributo que contiene 
-          una palabra especifica. <br>
-          <b>[attribute|=value</b> --selecciona elementos con el atributo especificado, cuyo
-          valor es exactamente el valor especificado, o el valor especificado seguido de un 
-          guion (-). <br>
-          <b>[attribute^=value]</b> --selecciona elementos con el atributo especificado, cuyo
-          valor comienza con el valor especificado. <br>
-          <b>attribute$=value]</b> --selecciona elementos cuyo valor de atributo termina con un 
-          valor especificado. <br>
-          <b>[attribute*=value]</b> --selecciona elementos cuyo valor de atributo contine un 
-          valor especificado. <br>
-        </p>
+        <h2>Bootstrap - Botones</h2>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-link">Link</button>
       </article>
-    </section>
 
-    <section>
       <article>
-        <ul>
-          <li><a href="#mienlace">Ejemplo comienza con #</a></li>
-          <li><a href="https://www.siuguarani.com/unsa">Ejemplo contiene unsa</a></li>
-          <li><a href="http://www.unsa.edu.ar">Ejemplo termina con .edu.ar</a></li>
-          <li><a href="https://exactas.unsa.edu.ar">Ejemplo comienza con https y termina con .edu.ar</a></li>
-        </ul>
-      </article>
-    </section>
-
-
-
-    <section>
-      <article>
-        <h2>Box-sizing</h2>
-        <p>De forma predeterminada, el ancho y la altura de un elemento se calcula asi: <br><br>
-          ancho + relleno + border = ancho real de un elemento <br>
-          alto + relleno + border = altura real de un elemento
-        </p>
+        <h2>Bootstrap - Botones</h2>
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+        <button type="button" class="btn btn-outline-link">Link</button>
       </article>
     </section>
 
 
     <section>
       <article>
-        <div id="contenedor-padre">
-          <p>Contenedor Padre</p>
-          <div id="contenedor-hijo" class="boxsizing">
-            <p>Contedor Hijo</p>
+        <h2>Bootstrap - Formulario</h2>
+        <div class="container">
+          <h2 class="mt-3" >Formulario basico</h2>
+          <form action="">
+            <div class="my-3">
+              <label for="exempleInputEmail" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">No compartiremos su email con nadie.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="expampleCheck1">
+              <label for="form-check-label" for="exampleCheck1">Le gano la Libertadores a su archirrival</label>
+            </div>
+            <div class="input-group mb-3">
+              <label for="inputGroupFile01" class="input-group-text">Subir</label>
+              <input type="file" class="form-control" id="inputGroupFile01">
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary" type="button">Enviar</button>
+            </div>
+          </form>
+        </div>
+
+
+      </article>
+    </section>
+
+
+    <section>
+      <article>
+        <h2>Bootstrap - Navbar</h2>
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar w/ text</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                Navbar text with an inline element
+              </span>
+            </div>
           </div>
-        </div>
+        </nav>
       </article>
     </section>
 
 
     <section>
       <article>
-        <div id="contenedor-padre">
-          <p>Contenedor Padre</p>
-          <div id="contenedor-hijo" class="boxsizing2">
-            <p>Contenedor Hijo</p>
+        <h2>Bootstrap - Carousel</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide1"></button>
+             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide2"></button>
+             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide3"></button>
           </div>
+          <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img src="https://images3.alphacoders.com/857/857335.jpg" class="d-block w-100" alt="...">
+             </div>
+             <div class="carousel-item">
+               <img src="https://fondosmil.com/fondo/17049.jpg" class="d-block w-100" alt="...">
+             </div>
+             <div class="carousel-item">
+               <img src="https://i.pinimg.com/originals/a7/fc/aa/a7fcaa43650adc892c401956a08dc32a.jpg" class="d-block w-100" alt="...">
+             </div>
+           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </article>
-    </section>
-
-    <section>
-      <article>
-        <div id="contenedor-padre">
-          <p>Contenedor Padre</p>
-          <div id="contenedor-hijo" class="boxsizing3">
-            <p>Contenedor Hijo</p>
-          </div>
-        </div>
-      </article>
-    </section>
-
-
-    <section>
-      <article>
-        <h2>Box-Sizing</h2>
-        <p>Como el resultado de utilizar box-sizing: <b>border-box</b>  es mucho mejor, es
-          comun hacer que todos los elementos de la pagina funcionen de esta 
-          manera mediante la siguiente regla: <br> <br>
-          <b>
-          * {
-            box-sizing: border-box;
-          }
-          </b>
-        </p>
-      </article>
-    </section>
-
-
-    <section>
-      <article>
-        <h2>Responsive Web Design</h2>
-        <p>El objetivo de RWD es que la pagina web se muestre y funcione
-          correctamente en cualquier dispositivo. <br>
-        </p>
-        <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174458625-68dadcfa-d7cf-413c-b9b5-1f1f77104a43.png" alt="No disponible" title="Responsive Web Design" width="100%">
-          <figcaption>Responsive Web Design</figcaption>
-        </figure>
-      </article>
-
-      <article>
-        <h2>Responsive Web Design</h2>
-        <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174458936-01cd1a53-eeb6-47c9-b011-5f54fa614b58.png" alt="No disponible" title="Responsive Web Design" width="100%">
-          <figcaption>Responsive Web Design</figcaption>
-        </figure>
-      </article>
-
-      <article>
-        <h2>Responsive Web Design</h2>
-        <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174459033-f4e13dc1-6a68-46fd-8439-3cacf15c319c.png" alt="No disponible" title="Responsive Web Design" width="100%">
-          <figcaption>Responsive Web Design</figcaption>
-        </figure>
-      </article>
-
-      <article>
-        <h2>Responsive Web Design</h2>
-        image.png
-      </article>
-    </section>
-
-    <section>
-      <article>
-        <h2>Viewport</h2>
-        <p>El viewport es el area visible que tiene el usuario de una pagina web, y 
-          cambia segun el dispositivo. <br><br>
-          HTML5 mediante la etiqueta meta, permite que el navegador establezca el
-          ancho del viewport igual al ancho de la pantalla del dispositivo actual. El 
-          valor de escala inicial establece el nivel de zoom en 1 (100%).
-        </p>
-        <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174459791-ac4e490c-58c7-4f78-8bd8-39ebdd465f90.png" alt="No disponible" title="Viewport" width="100%">
-          <figcaption>Viewport</figcaption>
-        </figure>
-      </article>
-    </section>
-
-    <section>
-      <article>
-        <h2>Grid View</h2>
-        <p>Con una vista de cuadricula es posible dividir la pagina en columnas, haciendo mas 
-          facil ubicar los elementos en ella. <br>
-          Generalmente tiene 12 columnas y un ancho total del 100%.
-        </p>
-        <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174459962-06cd78df-6a7f-4cff-92dd-61a772716594.png" alt="No disponible" title="Viewport" width="100%">
-          <figcaption>Grid View</figcaption>
-        </figure>
-      </article>
-
-      <article>
-        <h2>Grid View</h2>
-        <p>Con una vista de cuadricula es posible dividir la pagina en columnas, haciendo mas 
-          facil ubicar los elementos en ella. <br>
-          Generalmente tiene 12 columnas y un ancho total del 100%.
-        </p>
-        <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174460074-848ba0bf-09ed-4dc7-a182-cc7997caceb0.png" alt="No disponible" title="Viewport" width="100%">
-          <figcaption>Grid View</figcaption>
-        </figure>
-      </article>
-
-      <article>
-        <h2>Grid View</h2>
-        <h3>Ejemplo de la pagina web con dos columnas: en la section siguiente</h3>
-      </article>
-    </section>
-
-    <section>
-      <!-- <article id="box-sizing-4">
-        <div class="header">
-          <h2>Introduccion al Desarrollo Web</h2>
-        </div>
-        <div class="menu">
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javasript</li>
-            <li>Tp Final</li>
-          </ul>
-        </div>
-        <div class="main">
-          <h2>CSS</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus tenetur alias veniam ullam, consectetur tempore ut sunt quod error mollitia quam esse eos, voluptas totam harum cumque rem voluptate odio animi accusamus. Consectetur hic voluptas aut tempore qui iste minima tenetur itaque facere consequatur, alias, magni dolorum beatae delectus iusto aliquid! Officiis deleniti vero et accusantium temporibus, saepe quidem cupiditate!</p>
-        </div>
-      </article> -->
-    </section>
-
-
-    <section>
-      <article>
-        <h2>Grid View</h2>
-        <p>Ahora utilizaremos una vista de cuadricula con 12 columnas, para tener mas control 
-          de la pagina. <br><br>
-          El porcentaje para una columna viene dado por:100% /12 columnas = 8.33%. <br><br>
-          Y ahora hecemos una clase class="col-" para cada 
-          una de las 12 columnas, y un numero que indica
-          cuantas columnas debe ocupar la seccion. <br><br>
-          Todas estas columnas deben flotar a la izquierda y tener un padding de 15px
-        </p>
-      </article>
-    </section>
-
-    <section>
-      <article>
-        <h2>Grid View</h2>
-        <p>Cada fila debe estar dentro de un --div--. El numero dentro de una fila 
-          simbre debe sumar 12.
-        </p>
-      </article>
-      
-      <article>
-        <div class="row">
-          <div class="col-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quaerat earum corporis asperiores facilis minima facere illum eum itaque cupiditate rerum doloribus, eaque dolorem quasi magnam quisquam, sapiente minus at.</div>
-          <div class="col-9">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, veritatis? Illum corrupti consectetur quos aut harum porro, eveniet nemo voluptatem quidem distinctio mollitia? Quaerat non distinctio voluptatum minima sapiente dolorem.</div>
-        </div>
-      </article>
-    </section>
-
-    <section>
-      <article>
-        <h2>Grid View</h2>
-        <p>Cada fila debe estar dentro de un --div--. El numero de columnas dentro de una fila
-          siempre debe sumar 12.
-        </p>
-      </article>
-      <article>
-        
-        <p>Todas las columas dentro de una fila estan flotando a la izquierda, y sale del flujo 
-          de la pagina, para evitar que otros elementos se coloquen como si las columnas no 
-          existieran, agregamos la siguiente regla.
-        </p>
-      </article>
-
-      <article>
-        <div class="row">
-          <div class="col-3">Lorem ipsum,</div>
-          <div class="col-9">Lorem ipsum, dolor sit a.</div>
-        </div>
-      </article>
-    </section>
-
-
-    <section>
-      <article class="body">
-        <div class="header">
-          <h2>Introduccion al Desarrollo Web</h2>
-        </div>
-        <div class="row">
-          <div class="menu col-3">
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javasript</li>
-              <li>Tp Final</li>
-            </ul>
-          </div>
-          <div class="main col-9">
-            <h2>CSS</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus tenetur alias veniam ullam, consectetur tempore ut sunt quod error mollitia quam esse eos, voluptas totam harum cumque rem voluptate odio animi accusamus. Consectetur hic voluptas aut tempore qui iste minima tenetur itaque facere consequatur, alias, magni dolorum beatae delectus iusto aliquid! Officiis deleniti vero et accusantium temporibus, saepe quidem cupiditate!</p>
-          </div>
-        </div>
-        
-      </article>
-    </section>
-
-
-    <section>
-      <article>
-        <h2>Media Queries</h2>
-        <p>La regla @media se utiliza para obtener informacion del medio en el que se muestra 
-          el doucumento, y asi poder aplicar distintos estilos. <br>
-          Se puede obtener informacion sobre ancho y alto del viewport, la orientacion del
-          dispositivo, resolucion, etc.
-        </p>
-
-        <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174462447-a26fa63b-14d9-4d22-abbe-982ce9af8a6c.png" alt="No disponible" title="Viewport" width="100%">
-          <figcaption>Media Queries</figcaption>
-        </figure>
-
-        <p>Tambien puede tener diferentes hojas de estilo para diferentes medios, como esta: </p>
-        <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174462517-517b88bc-21eb-4519-b1fa-431b47ebf3be.png" title="Viewport" width="100%">
-          <figcaption>Media Queries</figcaption>
-        </figure>
-      </article>
-    </section>
-
-
-    <section>
-      <article>
-        <h1>Media Queries</h1>
-      </article>
-
-      <article class="body-media-queries">
-        <h2>Redimencionar la pantalla del navegador</h2>
-        <p>Utiliza mediaqueries para cambiar el backgroud-color to BlueViolet 
-          si el viewport es de 800 pixeles o mas, a DodgerBlue si el viewport
-          tiene entre 400 y 800 pixeles de ancho. Si el viewport tiene menos de 
-          400 pixels, el background-color es LimeGreen.
-        </p>
-      </article>
-    </section>
-
-    <section>
-      <article>
-        <h2>Media Queries</h2>
-        <p>Vamos a modifica nuestra pagina agregandole una seccion lateral, y un footer</p>
-      </article>
-
-      <article class="body">
-        <div class="header">
-          <h2>Introduccion al Desarrollo Web</h2>
-        </div>
-        <div class="row">
-          <div class="menu col-3">
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javasript</li>
-              <li>Tp Final</li>
-            </ul>
-          </div>
-          <div class="main col-6">
-            <h2>CSS</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus tenetur alias veniam ullam, consectetur tempore ut sunt quod error mollitia quam esse eos, voluptas totam harum cumque rem voluptate odio animi accusamus. Consectetur hic voluptas aut tempore qui iste minima tenetur itaque facere consequatur, alias, magni dolorum beatae delectus iusto aliquid! Officiis deleniti vero et accusantium temporibus, saepe quidem cupiditate!</p>
-          </div>
-          <div class="aside col-3">
-            <h3>HTML</h3>
-            <p>Utilizado para dar la estructura</p>
-            <h3>CSS</h3>
-            <p>Ulitlizada para ofrecer la presentacion</p>
-            <h3>Javascript</h3>
-            <p>Utilizado para brindar la funcionalidad</p>
-          </div>
-        </div>
-        <div class="footer">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veniam similique deserunt. Dolore velit aliquid totam voluptatem, eum nostrum a?</p>
-        </div>
-      </article>
-    </section>
-
-
-    <section>
-      <article>
-        <h2>Media Queries</h2>
-        <p>Con media queries podemos agregar un breakpoint, a partir del cual ciertas
-          partes del diseño se comportaran de manera diferentes a caqda lado de ese 
-          breakpoint. <br><br>
-          Cuando el viewport es menor o igual a 768 px, cada columna tendra un ancho de 100%.
-        </p>
-      </article>
-    </section>
-
-
-    <section>
-      <article>
-        <h2>Media Queries</h2>
-        <p>Diseñar para dispositivs moviles antes de diseñar para computadoras de escritorio o
-          cualquier otro dispositivo hara que la pagina se muestre mas rapido en dispositivos 
-          mas pequeños. <br><br>
-        </p>
-      </article>
-    </section>
-
-
-    <section>
-      <article>
-        <h2>Media Queries</h2>
-        <p>Se puede agregar otros breakpoints. En este ejemplo se agrega un media query, 
-          y se establecen nuevas clases para dispositivos con viewport mas grande o igual a 
-          600px (pero menores de 768px)
-        </p>
-      </article>
-      
-      <article class="body">
-        <div class="header">
-          <h2>Introduccion al Desarrollo Web</h2>
-        </div>
-        <div class="row">
-          <div class="menu col-3 col-s-3">
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javasript</li>
-              <li>Tp Final</li>
-            </ul>
-          </div>
-          <div class="main col-6 col-s-9">
-            <h2>CSS</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus tenetur alias veniam ullam, consectetur tempore ut sunt quod error mollitia quam esse eos, voluptas totam harum cumque rem voluptate odio animi accusamus. Consectetur hic voluptas aut tempore qui iste minima tenetur itaque facere consequatur, alias, magni dolorum beatae delectus iusto aliquid! Officiis deleniti vero et accusantium temporibus, saepe quidem cupiditate!</p>
-          </div>
-          <div class="aside col-3 col-s-12">
-            <h3>HTML</h3>
-            <p>Utilizado para dar la estructura</p>
-            <h3>CSS</h3>
-            <p>Ulitlizada para ofrecer la presentacion</p>
-            <h3>Javascript</h3>
-            <p>Utilizado para brindar la funcionalidad</p>
-          </div>
-        </div>
-        <div class="footer">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veniam similique deserunt. Dolore velit aliquid totam voluptatem, eum nostrum a?</p>
-        </div>
-      </article>
-    </section>
-
-
-    <section>
-      <article>
-        <h2>Imagenes</h2>
-        <p>Si la propiedad with se establece en un porcentaja y la propiedad height se 
-          establece un auto, la imagen se enlara hacia arriba y hacia abajo
-        </p>
-      </article>
-
-      <article class="body">
-        <div class="header">
-          <h2>Introduccion al Desarrollo Web</h2>
-        </div>
-        <div class="row">
-          <div class="menu col-3 col-s-3">
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javasript</li>
-              <li>Tp Final</li>
-            </ul>
-          </div>
-          <div class="main col-6 col-s-9">
-            <h2>CSS</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus tenetur alias veniam ullam, consectetur tempore ut sunt quod error mollitia quam esse eos, voluptas totam harum cumque rem voluptate odio animi accusamus. Consectetur hic voluptas aut tempore qui iste minima tenetur itaque facere consequatur, alias, magni dolorum beatae delectus iusto aliquid! Officiis deleniti vero et accusantium temporibus, saepe quidem cupiditate!</p>
-            <figure>
-              <img src="https://images3.alphacoders.com/857/857335.jpg" title="Viewport" width="460">
-              <figcaption>Imagen width=460 para pc y width: 100% para movil con height: auto</figcaption>
-            </figure>
-          </div>
-          <div class="aside col-3 col-s-12">
-            <h3>HTML</h3>
-            <p>Utilizado para dar la estructura</p>
-            <h3>CSS</h3>
-            <p>Ulitlizada para ofrecer la presentacion</p>
-            <h3>Javascript</h3>
-            <p>Utilizado para brindar la funcionalidad</p>
-          </div>
-        </div>
-        <div class="footer">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veniam similique deserunt. Dolore velit aliquid totam voluptatem, eum nostrum a?</p>
-        </div>
-      </article>
-      
     </section>
 
     <aside>
