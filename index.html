@@ -6,388 +6,618 @@
     <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0" />
     <title>Naomi Milagro Poclava</title>
     <link rel="stylesheet" type="text/css" href="CSS/main.css" />
-    <link rel="stylesheet" type="text/css" href="https://necolas.gitdub.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://neculas.gitdub.io/normalize.css/8.0.1/normalize.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body class="bg-dark text-white">
     <section>
       <article>
-        <h2>Framework</h2>
+        <h1>Tema: JavaScript (Dia 1)</h1>
+        <h2>Curso de Extension: Introduccion al Desarrollo Web</h2>
+        <h4>Ismael Orozco <br>
+          ciorozco.unsa@gmail.com
+        </h4>
+      </article>
+      
+      <article>
+        <h2>Agenda</h2>
+        <ol>
+          <li>Introduccion</li>
+          <li>Fundamentos de JavaScript</li>
+          <li>Ejercicios</li>
+        </ol>
+      </article>
+
+      <article>
+        <h2>1.Introduccion</h2>
+        <ul>
+          <li><b>HTML=</b> Capa estructural</li>
+          <li><b>CSS=</b> Capa de presentacion</li>
+          <li><b>JavaScript (JS):=</b> Capa de comportamiento</li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>1.Introduccion</h2>
+        <h3>JavScript</h3>
+        <ul>
+          <li>Lenguaje de programacion, que nos peremite agregar <b>Interacciones </b> y 
+            <b>comportamiento</b> a nuestra paginas.
+          </li>
+          <li>Es un lenguaje de scripting del lado del cliente, es decir, que se ejucuta en 
+            la maquina del usuario y no en el servidor.
+          </li>
+          <li>Es un lenguaje de programacion de tipado dinamico: no es necesario
+            indicar de que tipo son las variables.
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>1.Introduccion</h2>
         <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174688867-8a05fdd2-a6d2-4f51-95b8-64ef6ee1dd78.png" title="Viewport" width="460">
-          <figcaption>Framework</figcaption>
+          <img src="https://user-images.githubusercontent.com/95596561/177881805-78c64f74-0b95-4083-8045-b895832d3357.png" alt="JavaScript" width="100%" height="100%">
+          <figcaption>Cuenta Bancaria</figcaption>
         </figure>
-        <h2>Framework</h2>
+      </article>
+
+      <article>
+        <h2>1.Introduccion</h2>
         <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174689095-b036570f-4cde-4e0f-a0cf-b60b9b246024.png" title="Viewport" width="460">
-          <figcaption>Framework</figcaption>
+          <img src="https://user-images.githubusercontent.com/95596561/177882873-e32151db-2f07-44dc-9a24-02162ce90491.png" alt="JavaScript" width="100%" height="100%">
+          <figcaption>Cuenta Bancaria</figcaption>
         </figure>
-        <h2>Framework</h2>
-        <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174689287-8cc829cb-e9f5-452c-ad9f-36abd11c0bfc.png" title="Viewport" width="460">
-          <figcaption>Framework</figcaption>
-        </figure>        
-      </article>
-    </section>
-
-    <section>
-      <article>
-        <h2>Boostrap</h2>
-        <p>Desarrollo por Twittter, el principal objetivo de Booststrap es ofrecer un
-          un marco de trabajo (fremawork) para el desarrollo responsive 
-          de la interfaz de usuario web (front-end), manteniendo la compatibilidad
-          entre navegadores.
+        <h3>¿Si tengo 1000 barrios?</h3>
+        <p><b>Solucion:</b> Acceso mediante el DOM (Document Object Model) Se puede 
+          acceder mediante script a todos los elementos, atributos y texto en una
+          pagina web.
         </p>
       </article>
+      
       <article>
-        <h2>Boostrap - Instalacion</h2>
-        <p>Forma Sencilla <br>
-          Utilizamos su red de distribucion de contenidos o CDN
+        <form action="">
+          <label for="">Barrio:</label>
+          <select name="barrio" id="">
+            <option value="">San Ignacio</option>
+            <option value="">Santa Cecilia</option>
+            <option value="">Villa Cristina</option>
+            <option value="">Parque Belgrano</option>
+          </select>
+        </form>
+      </article>
+      
+      <article>
+        <h2>1.Introduccion</h2>
+        <p>La forma mas facil de probar unas lineas de JavaScript es abrir 
+          la herramienta de desarrollador en el navegador (F12) y elegir 
+          la pestaña de Consola. <br><br>
+          Agregando JavaScript a una pagina
         </p>
         <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174690827-27aa0593-b665-4597-b1f2-e7df015e3929.png" title="Viewport" width="460">
-          <figcaption>Framework</figcaption>
-        </figure>   
-      </article>      
-    </section>
-
-    <section>
-      <article>
-        <h2>Bootstrap - Pagina basica</h2>
+          <img src="https://user-images.githubusercontent.com/95596561/177883964-87c6fac3-0c83-4be4-83aa-2b877645b8c5.png" alt="JavaScript" width="100%" height="100%">
+          <figcaption>Cuenta Bancaria</figcaption>
+        </figure>
       </article>
+      
       <article>
-        <div class="container p-5 my-5 bg-dark text-white">
-          <h1>Mi primera pagina de Bootstrap</h1>
-          <p>Este contenedor tine un color de fondo oscuro y un texto blanco, y alguno margenes y rellenos adicionales.</p>
-        </div>
-
-        <div class="container p-5 my-5 bg-primary text-white">
-          <h1>Mi primera pagina de Bootstrap</h1>
-          <p>Este contenedor tiene un color de fondo azul y un texto blanco, y algunos margenes y rellenos adicionales.</p>
-        </div>
-      </article>
-    </section>
-
-
-    <section>
-      <article>
-        <h2>Bootstrap - Container</h2>
-        <p>Los contenedores son el elemento de diseño mas basico en Bootstrap y 
-          son necesarios para utilizar el sistema de rejillas predeterminado. <br><br>
-          Se utiliza para contener, rellenar y (a veces) centrar el contenido dentro de ellos. <br><br>
-          Bootstrap viene con tres contenedores diferentes: <br>
-          .container, proporciona un contenedor de ancho fijo. <br>
-          .container-fluid, proporciona un contenedor de ancho completo, que 
-          abarca todo el ancho del viewport. <br>
-          .container-{breakpoint}, abarca un ancho de 100% hasta el punto de
-          quiebre (breakpoint)
+        <h2>1.Introduccion</h2>
+        <p><b>Ejemplo 1:</b> Crear un pop-up que muestre un mensaje de texto
         </p>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/177884467-d71f833c-9c3f-4509-b958-b69011e59ad1.png" alt="JavaScript" width="100%" height="100%">
+          <figcaption>pop-up</figcaption>
+        </figure>
+      </article>
+      
+      <article>
+        <h2>1.Introduccion</h2>
+        <ol>
+          <li>Introduccion</li>
+          <li><b>Fundamentos de JavaScript</b></li>
+          <li>Ejercicio</li>
+        </ol>
+      </article>
+    </section>
+    
+    <section>
+      <article>
+        <h2>2. Fundamentos de JavaScript</h2>
+        <ul>
+          <li>Distingue entre mayusculas y minusculas (es case-sensitive)</li>
+          <li>Las intrucciones estan separadas por puento y coma(;)</li>
+          <li>Comentarios
+            <ul>
+              <li>// un comentario de una linea</li>
+              <li>/* este es comentario <br>
+                mas largo, de varias lineas <br>
+                */
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </article>
+      
+      <article>
+        <h2>2. Fundamentos de JavaScript</h2>
+        <ul>
+          <li>Variable: Es un "almacen con un nombre" para guardar datos.</li>
+          <li>Para generar una variable en JavaScript, se usa la palabra clave <b>let</b></li>
+          <li>En versiones anteriores de JS se usa <b>var</b> (solo cambia el alcance)</li>
+          <li>Comentarios</li>
+        </ul>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/177886007-222bb194-a8c8-4e6c-9d79-04487f5c7c2c.png" alt="JavaScript" width="100%" height="100%">
+          <figcaption>variable<figcaption>
+        </figure>
+      </article>
+      
+      <article>
+        <h2>2. Fundamentos de JavaScript - Variables</h2>
+        <ul>
+          <li>Existen dos limitaciones de nombre de variables en JavaScript:</li>
+          <ul>
+            <li>El nombre unicamente puede incluir letras, digitos, o los simbolos $ y _.</li>
+            <li>El primer caracter no puede ser un digito</li>
+            <li>No tienen que ser palabras reservadas (Sintaxis JS)</li>
+          </ul>
+        </li>
+      </ul>
+      <figure>
+        <img src="https://user-images.githubusercontent.com/95596561/177892013-23d4ec36-9abb-4762-9b45-bd9966edc2ae.png" alt="JavaScript" width="100%" height="100%">
+        <figcaption>variable</figcaption>
+      </figure>
       </article>
 
       <article>
-        <h2>Bootstrap - Sistema de Rejilla</h2>
-        <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174692553-2e6375d7-4dd3-478f-8aff-deee2da59149.png" title="Viewport" width="460">
-          <figcaption>Framework</figcaption>
-        </figure>   
+        <h2>2. Fundamentos de JavaScript - Constantes</h2>
+        <ul>
+          <li>Para declarar una constante usar <b>const</b> en vez de <b>let</b></li>
+          <li>Las constantes se nombran utilizando letras mayusculas y guiones bajos</li>
+      </ul>
+      <figure>
+        <img src="https://user-images.githubusercontent.com/95596561/177892503-1c3bd00c-8b55-49d2-9e71-adab54067de4.png" alt="JavaScript" width="100%" height="100%">
+        <figcaption>variable</figcaption>
+      </figure>
+    </article>
+    
+    <article>
+      <h2>2. Fundamentos de JavaScript - Tipos de datos</h2>
+      <ul>
+        <li><b>boolean:</b> true y false</li>  
+        <li><b>null: </b>Una palabra clave especial que denota un valor nulo.</li>  
+        <li><b>undefied: </b>Una propiedad de alto nivel cuyo valor no esta definido./li>  
+          <li><b>Infinity: </b>Representa el infinito matematico . Es un valor especial que 
+            es mayor ue cualquier numero.
+          </li>  
+          <li><b>numer: </b>Un numero entro o un numero de coma flotante.</li>  
+          <li><b>bigInt: </b>Un numero entero con precision arbitraria.</li>  
+          <li><b>string: </b>Una secuencia de caracteres que representan un valor de texto.</li><br> <br>
+          <li><b>typeof(x):</b>El operador typeof devuelve el tipo.</li>  
+        </ul>
       </article>
+      
       <article>
-        <h2>Bootstrap - Sistema de Rejilla</h2>
-        <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174692781-e7c87bb8-878b-4709-940e-403a9bc4d738.png" title="Viewport" width="460">
-          <figcaption>Framework</figcaption>
-        </figure>   
+        <h2>2. Fundamentos de JavaScript - Conversion de tipos</h2>
+        <ul>
+          <li><b>A String: </b>La conversion a string ocurre cuando necesitamos la 
+            reprentacion en forma de texto de un valor.
+          </li>  
+          <figure>
+            <img src="https://user-images.githubusercontent.com/95596561/178357128-f5f44363-f655-483a-8755-14917ee3c270.png" alt="JavaScript" width="100%" height="100%">
+            <figcaption>conversion A String</figcaption>
+          </figure>
+          <li><b>A Number: </b>La conversion numerica ocurre automaticamente en funciones 
+            matematicas y expresiones.
+          </li>
+          <figure>
+            <img src="https://user-images.githubusercontent.com/95596561/178357937-d5268a5c-3c84-4f34-956c-4cc0a06b19a1.png" alt="JavaScript" width="100%" height="100%">
+            <figcaption>conversion A Number</figcaption>
+          </figure>  
+        </ul>
       </article>
+      
       <article>
-        <h2>Bootstrap - Sistema de Rejilla</h2>
-        <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174692935-77ad72f9-07d4-4bbc-8d55-b8be61896231.png" title="Viewport" width="460">
-          <figcaption>Framework</figcaption>
-        </figure>   
+        <h2>2. Fundamentos de JavaScript - Conversion de tipos</h2>
+        <ul>
+          <li><b>A String: </b>La conversion a string ocurre cuando necesitamos la 
+            representacion en forma de texto de un valor.
+          </li>  
+          <li><b>A Number: </b>La conversion numerica ocurre automaticamente en funciones
+            matematicas y expresiones.
+          </li>  
+          <li><b>A Boolean: </b>Ocure en opereciones logicas (mas adelante veremos test
+            condicionales y otras cosas similares) pero tambien puede realizarse de 
+            forma explicita llamando a la funcion Boolean(value).
+          </li>  
+          <figure>
+            <img src="https://user-images.githubusercontent.com/95596561/178361482-c30cb307-9edd-49d0-9ff8-d939c738491d.png" alt="JavaScript" width="100%" height="100%">
+            <figcaption>conversion A Number</figcaption>
+          </figure>    
+        </ul>
       </article>
+
       <article>
-        <h2>Bootstrap - Sistema de Rejilla</h2>
-        <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174693141-de9ae813-f251-4db9-a289-191c752fdb82.png" title="Viewport" width="460">
-          <figcaption>Framework</figcaption>
-        </figure>   
+        <h2>2. Fundamentos de JavaScript - Operadores</h2>
+        <ul>
+          <li><b>Suma +</b></li>  
+          <li><b>Resta - </b></li>  
+          <li><b>Multiplicacion *</b></li>
+          <li><b>Division /</b></li>
+          <li><b>Resto %</b></li>
+          <li><b>Exponenciacion **</b></li> 
+          <figure>
+            <img src="https://user-images.githubusercontent.com/95596561/178362997-e12f8720-bb4e-43a1-b2a1-3ea0cafe58aa.png" alt="JavaScript" width="100%" height="100%">
+            <figcaption>conversion A Number</figcaption>
+          </figure>    
+        </ul>
       </article>
+      
       <article>
-        <h2>Bootstrap - Sistema de Rejilla</h2>
-        <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174693333-ec3a26a2-732f-455f-a908-d1009a570be5.png" title="Viewport" width="460">
-          <figcaption>Framework</figcaption>
-        </figure>   
+        <h2>2. Fundamentos de JavaScript - Comparaciones</h2>
+        <ul>
+          <li><b>Mayor/menor que: </b>a > b, a < b</li>  
+          <li><b>Mayor/menor o igual que: </b>a >= b, a <= b.</li>  
+          <li><b>Igual: </b>a == b (ten en cuenta que el doble signo == significa comparacion, 
+            mientras que un solo simbolo a = b siginifica una asignacion).
+          </li>
+          <li><b>Distinto. </b>En matematicas la notacion != , pero en JavaScript se 
+            escribe con un signo de exclamacion: <b>a != b</b>
+          </li>    
+        </ul>
       </article>
+      
       <article>
-        <h2>Bootstrap - Sistema de Rejilla</h2>
-        <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174693536-fcbd9b7b-19cd-485e-b9c0-adb36a72b4d2.png" title="Viewport" width="460">
-          <figcaption>Framework</figcaption>
-        </figure>   
+        <h2>2. Fundamentos de JavaScript - Estructara de Control</h2>
+        <h3>Toma de decisiones</h3>
+        <ul>
+          <li><b>IF</b></li>  
+          <li><b>IF anidadas</li>  
+            <li><b>Switch</b></li>
+          </ul>
+          <h3>Bucles</h3>
+          <ul>
+            <li><b>For</b></li>
+            <li><b>While</b></li>
+            <li><b>Do While</b></li>
+          </ul>
+          <figure>
+            <img src="https://user-images.githubusercontent.com/95596561/178366402-2ff7c693-2006-483c-9f85-90cd802370c4.png" alt="JavaScript" width="100%" height="100%">
+            <figcaption>IF anidadas</figcaption>
+          </figure>    
+          <figure>
+            <img src="https://user-images.githubusercontent.com/95596561/178366940-69752140-5be1-46f6-8e85-8ae6db7462bd.png" alt="JavaScript" width="100%" height="100%">
+            <figcaption>Switch</figcaption>
+          </figure>    
+          <figure>
+            <img src="https://user-images.githubusercontent.com/95596561/178367369-e514d22c-1444-40a1-bcd4-d9cff79343e9.png" alt="JavaScript" width="100%" height="100%">
+            <figcaption>For</figcaption>
+          </figure>    
+          <figure>
+            <img src="https://user-images.githubusercontent.com/95596561/178367647-1fa3b477-75fe-46b7-8ef6-4da049349a9e.png" alt="JavaScript" width="100%" height="100%">
+            <figcaption>While</figcaption>
+          </figure>    
+          <figure>
+            <img src="https://user-images.githubusercontent.com/95596561/178368146-b6848ee5-3736-4349-b871-98671defce8f.png" alt="JavaScript" width="100%" height="100%">
+            <figcaption>Do While</figcaption>
+          </figure>    
+        </article>
+        
+        <article>
+          <h2>2. Fundamentos de JavaScript - Interaciones</h2>
+        <ul>
+          <li><b>Alert: </b>Muestra un mensaje y espera a que el usuario presione "Aceptar".</li>
+          <figure>
+            <img src="https://user-images.githubusercontent.com/95596561/178370012-ccc04be2-d12c-448e-b0d8-87356ddafe47.png" alt="JavaScript" width="100%" height="100%">
+            <figcaption>Alert</figcaption>
+          </figure>    
+          <li><b>Prompt: </b>Muestra una ventana modal con un mensaje de texto, un campo
+            de entrada para visitante y los botones OK/CANCELAR.
+          </li>  
+          <figure>
+            <img src="https://user-images.githubusercontent.com/95596561/178370016-f063688c-259d-45e4-81f6-2297fae14e3a.png" alt="JavaScript" width="100%" height="100%">
+            <figcaption>Prompt</figcaption>
+          </figure>    
+          <li><b>Confirm: </b>La funcion confirm muestra una ventana modal con una 
+            pregunta y dos botones: OK/CANCELAR.
+          </li>
+          <figure>
+            <img src="https://user-images.githubusercontent.com/95596561/178370022-7a44f97a-08ad-49d3-8dda-a335b8b5fe29.png" alt="JavaScript" width="100%" height="100%">
+            <figcaption>Confirm</figcaption>
+          </figure>    
+        </ul>
       </article>
+
       <article>
-        <h2>Bootstrap - Sistema de Rejilla</h2>
+        <h2>2. Fundamentos de JavaScript - Funciones</h2>
+        <h3>Para crear una funcion podemos usar una declaracion de funcion.</h3>
         <figure>
-          <img src="https://user-images.githubusercontent.com/95596561/174693700-44516cb8-3ab5-4793-baf1-37f7e740e780.png" title="Viewport" width="460">
-          <figcaption>Framework</figcaption>
-        </figure>   
+          <img src="https://user-images.githubusercontent.com/95596561/178371512-50009b67-dcdf-4a4f-ac77-d947d4d08609.png" alt="JavaScript" width="100%" height="100%">
+          <figcaption>Funciones</figcaption>
+        </figure>    
+      </article>
+
+      <article>
+        <h2>2. Fundamentos de JavaScript - Ambito de variables en las funciones</h2>
+        <h3>Para crear una funcion podemos usar una declaracion de funcion.</h3>
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/178374159-5b0e3a0b-0be7-43cb-926f-f8597f4f11da.png" alt="JavaScript" width="100%" height="100%">
+          <figcaption>Variables locales</figcaption>
+        </figure>    
+        <figure>
+          <img src="https://user-images.githubusercontent.com/95596561/178372713-987b5f14-cf91-4ed4-b388-4e919716c74c.png" alt="JavaScript" width="100%" height="100%">
+          <figcaption>Variables externas</figcaption>
+        </figure>    
+      </article>
+
+      <article>
+        <h2>Agenda</h2>
+        <ol>
+          <li>Introduccion</li>
+          <li>Fundamentos de JavaScript</li>
+          <li><b>Ejercicios</b></li>
+        </ol>
       </article>
     </section>
 
     <section>
       <article>
-        <h2>Bootstrap - Sistema de Rejilla</h2>
-        <div class="container-fluid my-5">
-          <div class="row">
-            <div class="col-lg-1 col-sm-4 bg-primary text-white">1</div>
-            <div class="col-lg-1 col-sm-4 bg-secondary text-white">2</div>
-            <div class="col-lg-1 col-sm-4 bg-success text-white">3</div>
-            <div class="col-lg-1 col-sm-4 bg-danger text-white">4</div>
-            <div class="col-lg-1 col-sm-4 bg-warning text-dark">5</div>
-            <div class="col-lg-1 col-sm-4 bg-info text-white">6</div>
-            <div class="col-lg-1 col-sm-4 bg-light text-dark">7</div>
-            <div class="col-lg-1 col-sm-4 bg-dark text-white">8</div>
-            <div class="col-lg-1 col-sm-4 bg-white text-dark">9</div>
-            <div class="col-lg-1 col-sm-4 bg-primary text-white">10</div>
-            <div class="col-lg-1 col-sm-4 bg-secondary text-white">11</div>
-            <div class="col-lg-1 col-sm-4 bg-success text-white">12</div>
-          </div>
-        </div>
+        <h2>3. Ejercicios</h2>
+        <ul>
+          <li>Escribe un programa de una sola linea que haga que aparezca en la 
+            pantalla un alert que diga "Hello World".
+          </li>
+          <li>Escriba un programa de una sola linea que escriba en la pantalla el 
+            resultado de sumar 3 + 5.
+          </li>
+          <li>Escribe un programa de dos lineas que pida el nombre del usuario con un 
+            prompt y escriba un texto que diga "Hola nombreUsuario"
+          </li>
+          <li>Escribe un programa que pida un numero, pida otro numero y escriba el 
+            resultado de sumar estos dos numeros.
+          </li>
+          <li>Escribe un programa que pida dos numeros y escriba en pantalla cual es el mayor.</li>
+        </ul>
       </article>
 
       <article>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 bg-success">1/3</div>
-            <div class="col-md-8 bg-danger">2/3</div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-3 bg-warning text-dark">1/4</div>
-            <div class="col-md-6 bg-info text-white">1/2</div>
-            <div class="col-md-3 bg-light text-dark">1/4</div>
-          </div>
-          
-          <div class="row">
-            <div class="col-md-3 bg-dark text-white">1/4</div>
-            <div class="col-md-3 bg-white text-dark">1/4</div>
-            <div class="col-md-3 bg-dark text-white">1/4</div>
-            <div class="col-md-3 bg-white text-dark">1/4</div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-3 bg-danger text-white">1/4</div>
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col-md-6 bg-light">1/4</div>
-                <div class="col-md-6 bg-primary">1/4</div>
-              </div>
-            </div>
-            <div class="col-md-3">1/4</div>
-          </div>
-        </div>
+        <h2>3. Ejercicios</h2>
+        <ul>
+          <li>Escribe un programa que pida 3 numeros y muestre el mayor de los tres.
+          </li>
+          <li>Escribe un programa que pida un numero y diga si es divisible por 2.
+          </li>
+          <li>Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a.
+          </li>
+          <li>Escribe un programa que pida una frase y escriba la cantidad de vocales 
+            que aparecen.
+          </li>
+          <li>Escribe un programa que pida una frase y escriba cuantas veces aparecen cada una de las vocales.</li>
+        </ul>
       </article>
-
       <article>
-        <h2>Bootstrap - Tablas</h2>
-
-        <table class="table">
-          <tr>
-            <th>#</th>
-            <th>Curso</th>
-            <th>Horas</th>
-            <th>Horario</th>
-          </tr>
-          <tr>
-            <th>1</th>
-            <th>HTML</th>
-            <th>20</th>
-            <th>14:00 - 16:00</th>
-          </tr>
-          <tr>
-            <th>2</th>
-            <th>CSS</th>
-            <th>20</th>
-            <th>16:00 - 18:00</th>
-          </tr>
-          <tr>
-            <th>3</th>
-            <th>JavaScript</th>
-            <th>60</th>
-            <th>18:00 - 20:00</th>
-          </tr>
-        </table>
-      </article>
-
-      <article>
-        <h2>Bootstrap - Tablas</h2>
-
-        <table class="table table-dark table-striped">
-          <tr>
-            <th>#</th>
-            <th>Curso</th>
-            <th>Horas</th>
-            <th>Horario</th>
-          </tr>
-          <tr>
-            <th>1</th>
-            <th>HTML</th>
-            <th>20</th>
-            <th>14:00 - 16:00</th>
-          </tr>
-          <tr>
-            <th>2</th>
-            <th>CSS</th>
-            <th>20</th>
-            <th>16:00 - 18:00</th>
-          </tr>
-          <tr>
-            <th>3</th>
-            <th>JavaScript</th>
-            <th>60</th>
-            <th>18:00 - 20:00</th>
-          </tr>
-        </table>
+        <h2>3. Ejercicios</h2>
+        <ul>
+          <li>Escribir un programa que escriba en pantalla los divisores de un numero 
+            dado
+          </li>
+          <li>Escribir un programa que nos diga si un numero dado es primo (no es 
+            divisible por ninguno otro numero que no sea el mismo o la unidad)
+          </li>
+          <li>Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a.
+          </li>
+          <li>Escribe un programa que pida una frase y escriba la cantidad de vocales 
+            que aparecen.
+          </li>
+          <li>Escribe un programa que pida una frase y escriba cuantas veces aparecen cada una de las vocales.</li>
+        </ul>
       </article>
     </section>
 
-
-    <section>
-      <article>
-        <h2>Bootstrap - Botones</h2>
-        <button type="button" class="btn btn-primary">Primary</button>
-        <button type="button" class="btn btn-secondary">Secondary</button>
-        <button type="button" class="btn btn-success">Success</button>
-        <button type="button" class="btn btn-danger">Danger</button>
-        <button type="button" class="btn btn-warning">Warning</button>
-        <button type="button" class="btn btn-info">Info</button>
-        <button type="button" class="btn btn-light">Light</button>
-        <button type="button" class="btn btn-dark">Dark</button>
-        <button type="button" class="btn btn-link">Link</button>
-      </article>
-
-      <article>
-        <h2>Bootstrap - Botones</h2>
-        <button type="button" class="btn btn-outline-primary">Primary</button>
-        <button type="button" class="btn btn-outline-secondary">Secondary</button>
-        <button type="button" class="btn btn-outline-success">Success</button>
-        <button type="button" class="btn btn-outline-danger">Danger</button>
-        <button type="button" class="btn btn-outline-warning">Warning</button>
-        <button type="button" class="btn btn-outline-info">Info</button>
-        <button type="button" class="btn btn-outline-light">Light</button>
-        <button type="button" class="btn btn-outline-dark">Dark</button>
-        <button type="button" class="btn btn-outline-link">Link</button>
-      </article>
-    </section>
-
-
-    <section>
-      <article>
-        <h2>Bootstrap - Formulario</h2>
-        <div class="container">
-          <h2 class="mt-3" >Formulario basico</h2>
-          <form action="">
-            <div class="my-3">
-              <label for="exempleInputEmail" class="form-label">Email:</label>
-              <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">No compartiremos su email con nadie.</div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="expampleCheck1">
-              <label for="form-check-label" for="exampleCheck1">Le gano la Libertadores a su archirrival</label>
-            </div>
-            <div class="input-group mb-3">
-              <label for="inputGroupFile01" class="input-group-text">Subir</label>
-              <input type="file" class="form-control" id="inputGroupFile01">
-            </div>
-            <div class="d-grid">
-              <button type="submit" class="btn btn-primary" type="button">Enviar</button>
-            </div>
-          </form>
-        </div>
-
-
-      </article>
-    </section>
-
-
-    <section>
-      <article>
-        <h2>Bootstrap - Navbar</h2>
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar w/ text</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-              </ul>
-              <span class="navbar-text">
-                Navbar text with an inline element
-              </span>
-            </div>
-          </div>
-        </nav>
-      </article>
-    </section>
-
-
-    <section>
-      <article>
-        <h2>Bootstrap - Carousel</h2>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-          <div class="carousel-indicators">
-             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide1"></button>
-             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide2"></button>
-             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide3"></button>
-          </div>
-          <div class="carousel-inner">
-             <div class="carousel-item active">
-               <img src="https://images3.alphacoders.com/857/857335.jpg" class="d-block w-100" alt="...">
-             </div>
-             <div class="carousel-item">
-               <img src="https://fondosmil.com/fondo/17049.jpg" class="d-block w-100" alt="...">
-             </div>
-             <div class="carousel-item">
-               <img src="https://i.pinimg.com/originals/a7/fc/aa/a7fcaa43650adc892c401956a08dc32a.jpg" class="d-block w-100" alt="...">
-             </div>
-           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-             <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-             <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </article>
-    </section>
-
-    <aside>
-
-    </aside>
-
-    <footer>
-
-    </footer>
 
     
-    <script src="Js/main.js"></script>
+    <aside>
+      
+    </aside>
+    
+    <footer>
+      
+    </footer>
+    <script>
+      // poner codigo aqui
+      // alert('hola mundo!'); //pop-up
+
+      // variables
+      // let message;
+      // message = 'Hola!';
+      // alert(message);
+      // muestra el mensaje
+
+      // let user = 'John';
+      // let age = 25;
+      // let message = 'hola';
+      // // let user = 'johny';
+      // user='Johny';
+
+      let $=1;
+      let _ =2;
+      // alert($+_); //funciona si.
+      </script>
+
+      <script>
+        // const myBrithday = '18.03.2001';
+        // myBrithday = '01.01.2001';
+        // console.log(myBrithday);
+        // error
+      
+      </script>
+      
+      <script>
+        const COLOR_RED = "F00";
+        const COLOR_GREEN = "0F0";
+        const COLOR_BLUE = "00F";
+        const COLOR_ORANGE = "FFA500";
+      </script>
+
+      <script>
+        // conversion a string
+        let value = true;
+        console.log(typeof value);
+        value = String(value);
+        console.log(typeof value);
+      </script>
+
+      <!-- <script>
+        // conversion a number
+        let anios = "18";
+        console.log(typeof anios);// string
+        let num = Number(anios);// number
+        console.log(typeof num);
+      </script> -->
+
+      <script>
+        // conversion a boolean
+        console.log(Boolean(1));// true
+        console.log(Boolean(0));// false
+        console.log(Boolean("hola"));// true
+        console.log(Boolean(""));// false
+      </script>
+
+      <script>
+        // operaciones
+        console.log(5%2); // 1 es un resto de 5 dividido por 2
+        console.log(8%3); // 2 es un resto de 8 dividido por 3
+
+        console.log(2**2); // 4 es 2 elevado a 2
+        console.log(2**3); // 8 es 2 elevado a 3
+        console.log(2**4); // 16 es 2 elevado a 4
+      </script>
+
+      <!-- <script>
+        alert('hola mundo!');
+      </script> -->
+
+      <!-- <script>
+        alert(5+8);
+      </script> -->
+
+      <!-- <script>
+        let user = prompt('dime tu nombre: ');
+        alert('Hola '+ user);
+      </script> -->
+
+      <!-- <script>
+        let num1 = Number(prompt('Ingrese el primer numero: '));
+        let num2 = Number(prompt('Ingrese el segundo numero: '));
+        let sumar = num1 + num2;
+        alert('La suma es: '+ sumar);
+      </script> -->
+
+      <!-- <script>
+        let num1 = Number(prompt('Ingrese el primer numero: '));
+        let num2 = Number(prompt('Ingrese el segundo numero: '));
+        let mayor;
+        if(num1 > num2){
+          mayor = num1;
+        } else if (num1 < num2){
+          mayor = num2;
+        } else {
+          mayor = 'son iguales';
+        }
+
+        alert('El mayor es: '+ mayor);
+      </script> -->
+
+      <!-- <script>
+        let num1 = Number(prompt('Ingrese el primer numero: '));
+        let num2 = Number(prompt('Ingrese el segundo numero: '));
+        let num3 = Number(prompt('Ingrese el tercer numero: '));
+        let mayor;
+
+        if (num1 > num2 && num1 > num3){
+          mayor = num1;
+        } else if (num2 > num1 && num2 > num3){
+          mayor = num2;
+        } else if (num3 > num1 && num3 > num2){
+          mayor = num3;
+        } else {
+          mayor = 'son iguales';
+        }
+
+        alert('El mayor es: '+ mayor);
+      </script> -->
+
+      <!-- <script>
+        let num = Number(prompt('Ingrese un numero: '));
+        let esDivisible = false;
+        if (num % 2 == 0){
+          esDivisible = true;
+        } else {
+          esDivisible = false;
+        }
+
+        alert('El numero es divisible?: '+ esDivisible);
+
+        if (esDivisible){
+          alert('El numero es divisible');
+        } else {
+          alert('El numero no es divisible');
+        }
+      </script> -->
+
+
+      <!-- <script>
+        let frase = prompt('Ingrese una frase: ');
+        let contador = 0;
+        let letra = 'a';
+
+        for (let i = 0; i < frase.length; i++){
+          if (frase[i] == letra){
+            contador++;
+          }
+        }
+
+        alert('La letra a aparece '+ contador + ' veces');
+      </script> -->
+
+      <!-- <script>
+        let frase = prompt('Ingrese una frase: ');
+        let contador = 0;
+
+        for (let i = 0; i < frase.length; i++){
+          if (frase[i] == 'a' || frase[i] == 'e' || frase[i] == 'i' || frase[i] == 'o' || frase[i] == 'u'){
+            contador++;
+          }
+        }
+        alert('La frase contiene '+ contador + ' vocales');
+      </script> -->
+
+      <!-- <script>
+        let num = Number(prompt('Ingrese un numero: '));
+        for (let i = 0; i < num; i++){
+          if (num % i == 0){
+            alert("el numero es divisible por: "+ i);
+          }
+        }
+      </script> -->
+
+      <script>
+        // es primo
+        let num = Number(prompt('Ingrese un numero: '));
+        let esPrimo = true;
+        for (let i = 2; i < num; i++){
+          if (num % i == 0){
+            esPrimo = false;
+          }
+        }
+        if (esPrimo){
+          alert('El numero es primo');
+        } else {
+          alert('El numero no es primo');
+        }
+      </script>
+
+
+
   </body>
-</html>
+  </html>
+  
